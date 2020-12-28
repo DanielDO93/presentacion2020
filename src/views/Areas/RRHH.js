@@ -15,7 +15,7 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2020</b></h2>
+                  <h2><b>Resultados  2020</b></h2>
                   <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
@@ -183,11 +183,11 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={94}  color="green" />
+                              <Progress value={94} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={96}  color="green" />
+                              <Progress value={96} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -199,13 +199,13 @@ class Comercial extends Component {
             </Container>
           </div>
         </div>
-        
+
         <div className="slide">
           <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -235,7 +235,7 @@ class Comercial extends Component {
                         <Nav.Item>
                           <Nav.Link eventKey="siete" className="text-white">Estratégico</Nav.Link>
                         </Nav.Item>
-                        
+
                       </Nav>
                     </Col>
                     <Col sm={12}>
@@ -255,7 +255,7 @@ class Comercial extends Component {
                               <h2><b>Comentarios</b></h2>
                               <h1>Basado en escala de Likert </h1>
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="dos">
@@ -269,7 +269,7 @@ class Comercial extends Component {
 
                               <Progress value={95} color="green" />
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="tres">
@@ -283,7 +283,7 @@ class Comercial extends Component {
 
                               <Progress value={100} color="green" />
                             </Col>
-                            
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="cuatro">
@@ -301,7 +301,7 @@ class Comercial extends Component {
                               <h2><b>Comentarios</b></h2>
                               <h1>A revisar vs. productivifad en HO </h1>
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="cinco">
@@ -315,7 +315,7 @@ class Comercial extends Component {
 
                               <Progress value={90} color="green" />
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="seis">
@@ -329,7 +329,7 @@ class Comercial extends Component {
 
                               <Progress value={90} color="green" />
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="siete">
@@ -343,7 +343,7 @@ class Comercial extends Component {
 
                               <Progress value={100} color="green" />
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                       </Tab.Content>
@@ -359,7 +359,7 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>
@@ -371,7 +371,7 @@ class Comercial extends Component {
                         <Nav.Item>
                           <Nav.Link eventKey="ocho" className="text-white"> De proceso</Nav.Link>
                         </Nav.Item>
-                        
+
                         <Nav.Item>
                           <Nav.Link eventKey="nueve" className="text-white">De proceso</Nav.Link>
                         </Nav.Item>

@@ -3,185 +3,241 @@ import "../../index.css";
 import Progress from "../Components/Progress";
 import home from "../../assets/img/home.png";
 import { Row, Col, Container } from 'reactstrap';
+import Nav from 'react-bootstrap/Nav'
+import Tab from 'react-bootstrap/Tab'
 
-class Comercial extends Component {
+class Calidad extends Component {
   render() {
     return (
       <div className="section">
+      <div className="slide">
+          <div className="content">
+            <Container>
+              <Row>
+                <Col xs="12">
+                  <h2><b className=" top">Cuantitativos: </b></h2>
+                </Col>
+              </Row>
+              <Row>
+                <Tab.Container id="left-tabs-example" defaultActiveKey="uno">
+                  <Row>
+                    <Col sm={12}>
+                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Nav.Item>
+                          <Nav.Link eventKey="uno" className="text-white">De resultado  </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="dos" className="text-white">De resultado  </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="tres" className="text-white"> Estratégico </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="cuatro" className="text-white"> Estratégico </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="cinco" className="text-white">De resultado </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="seis" className="text-white">De proceso </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="siete" className="text-white">De proceso </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="ocho" className="text-white">De resultado </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="nueve" className="text-white">De proceso </Nav.Link>
+                        </Nav.Item>
+                       
+                      </Nav>
+                    </Col>
+                    <Col sm={12}>
+                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Tab.Pane eventKey="uno">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Días en meta </h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+
+                              <Progress value={90} color="green" />
+                            </Col>
+                           
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="dos">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Cobertura de monitoreos </h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={100} color="green" />
+                            </Col>
+                           
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="tres">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Retroalimentaciones en tiempo (FeedForward)</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={95} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="cuatro">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Retroalimentaciones en tiempo (FeedQuestioning)</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={90} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="cinco">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Nota de Calidad global</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={94} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="seis">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Resultados de calibración</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={10} text="¨+-10¨" color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="siete">
+                          <Row>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Certificación staff mensual</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="4">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={90}  color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Comentarios</b></h2>
+                              <h1>90% del personal apruebe con 90% de calificación </h1>
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="ocho">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Nivel de servicio con base en tickets</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={90} text="=&#62;95%" color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="nueve">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Encuesta de calibración con cliente</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={90}  color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        
+                      </Tab.Content>
+                    </Col>
+                  </Row>
+                </Tab.Container>
+              </Row>
+            </Container>
+          </div>
+        </div>
         <div className="slide">
           <div className="content">
-            <h1 className="title2">Calidad</h1>
+            <Container>
+              <Row>
+                <Col xs="12">
+                  <h2><b className=" top ">Cualitativos: </b></h2>
+                </Col>
+              </Row>
+              <Row>
+                <Tab.Container id="left-tabs-example" defaultActiveKey="diez">
+                  <Row>
+                    <Col sm={12}>
+                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Nav.Item>
+                          <Nav.Link eventKey="diez" className="text-white"> Estratégico</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="once" className="text-white"> Estratégico</Nav.Link>
+                        </Nav.Item>
+                      </Nav>
+                    </Col>
+                    <Col sm={12}>
+                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Tab.Pane eventKey="diez">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Implementación de metodología Sprint </h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+
+                              <Progress value={0} text="Binario" color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="once">
+                          <Row>
+                            <Col xs="12" sm="6" md="6" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Implementación de metología CX </h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="6">
+                              <h2> <b>Objetivo</b></h2>
+
+                              <Progress value={0} text="Binario" color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        
+                      </Tab.Content>
+                    </Col>
+                  </Row>
+                </Tab.Container>
+              </Row>
+            </Container>
           </div>
         </div>
         
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Días en meta</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={80}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={80}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={-0.17} color="red" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Monitoreos en tiempo</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={95}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={98}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={3} color="green" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Cobertura de monitoreo</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={100}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={98}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={-2} color="green" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Retroalimentaciones en tiempo</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={95}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={97}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={-1.60} color="green" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Nota de Calidad global</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={90}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={94}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={-3.86} color="green" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Resultado de calibración</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={3} text="+3"  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={0}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={0} color="green" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Cumplimiento de Clínica de Calidad en plantilla</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={100}   color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={0}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={0} color="green" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-      
         <div className="slide">
           <div className="content">
             {/*<h1 className="title2" onClick={() => (window.location.href = "/#Indice")}> Gracias</h1>*/}
@@ -204,4 +260,4 @@ class Comercial extends Component {
   }
 }
 
-export default Comercial;
+export default Calidad;

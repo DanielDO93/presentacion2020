@@ -16,7 +16,7 @@ class TI extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                  <h2><b>Objetivos anuales 2020</b></h2>
+                  <h2><b>Resultados  2020</b></h2>
                   <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
@@ -104,7 +104,7 @@ class TI extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={63}  color="green" />
+                              <Progress value={63} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
@@ -124,7 +124,7 @@ class TI extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={96}  color="green" />
+                              <Progress value={96} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
@@ -156,15 +156,15 @@ class TI extends Component {
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={100}  color="green" />
+                              <Progress value={100} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={0}  color="red" />
+                              <Progress value={0} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={0}  color="green" />
+                              <Progress value={0} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
@@ -176,7 +176,7 @@ class TI extends Component {
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={50}  color="green" />
+                              <Progress value={50} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
@@ -208,7 +208,7 @@ class TI extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -320,7 +320,7 @@ class TI extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>

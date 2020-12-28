@@ -11,7 +11,7 @@ class TI extends Component {
   render() {
     return (
       <div className="section">
-         <div className="slide">
+        <div className="slide">
           <div className="content">
             <Container>
               <Row>
@@ -47,7 +47,7 @@ class TI extends Component {
                         <Nav.Item>
                           <Nav.Link eventKey="7" className="text-white"> Módulo E-Learning </Nav.Link>
                         </Nav.Item>
-                       
+
                       </Nav>
                     </Col>
                     <Col sm={12}>
@@ -76,19 +76,19 @@ class TI extends Component {
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={90} color="green" />
+                              <Progress value={100} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={85} color="green" />
+                              <Progress value={67} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={90} color="green" />
+                              <Progress value={39} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={88} color="green" />
+                              <Progress value={53} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -96,19 +96,19 @@ class TI extends Component {
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={90} color="green" />
+                              <Progress value={50} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={93} color="green" />
+                              <Progress value={68} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={93} color="green" />
+                              <Progress value={63}  color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={93} color="green" />
+                              <Progress value={66} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -116,19 +116,19 @@ class TI extends Component {
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={100} color="green" />
+                              <Progress value={95} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={100} color="green" />
+                              <Progress value={100} text="N/A" color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={98} color="green" />
+                              <Progress value={96}  color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={99} color="green" />
+                              <Progress value={96} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -136,71 +136,11 @@ class TI extends Component {
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={90} color="green" />
+                              <Progress value={100} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={77} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={94} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={87} color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="6">
-                          <Row>
-                            <Col xs="12" sm="6" md="3" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={8} text="8" color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={2} text="2" color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={3} text="3" color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={38}  color="red" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="7">
-                          <Row>
-                            <Col xs="12" sm="6" md="3" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={10} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={6} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={100} text="N/A"  color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={6}  color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="8">
-                          <Row>
-                            <Col xs="12" sm="6" md="3" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={95} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={94} color="green" />
+                              <Progress value={81} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
@@ -208,30 +148,51 @@ class TI extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={94}  color="green" />
+                              <Progress value={81} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="9">
+                        <Tab.Pane eventKey="6">
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={80}  color="green" />
+                              <Progress value={100}  color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={14}  color="red" />
+                              <Progress value={0}  color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={5}  color="red" />
+                              <Progress value={0}  color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={15}  color="red" />
+                              <Progress value={0} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
+                        <Tab.Pane eventKey="7">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={50}  color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={6} color="red" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={36} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={84} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+
 
                       </Tab.Content>
                     </Col>
@@ -242,7 +203,7 @@ class TI extends Component {
           </div>
         </div>
 
-         <div className="slide">
+        <div className="slide">
           <div className="content">
             <Container>
               <Row>
@@ -285,7 +246,7 @@ class TI extends Component {
 
                               <Progress value={90} color="green" />
                             </Col>
-                           
+
 
                           </Row>
                         </Tab.Pane>
@@ -526,7 +487,7 @@ class TI extends Component {
                             </Col>
                           </Row>
                         </Tab.Pane>
-                      
+
                       </Tab.Content>
                     </Col>
                   </Row>
@@ -535,7 +496,7 @@ class TI extends Component {
             </Container>
           </div>
         </div>
-        
+
 
 
         <div className="slide">
@@ -546,7 +507,7 @@ class TI extends Component {
               alt=""
               style={{
                 width: "15%",
-                cursor:"pointer",
+                cursor: "pointer",
                 filter:
                   "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(65%)"
               }}

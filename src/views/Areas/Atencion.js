@@ -23,7 +23,7 @@ class Atencion extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2020</b></h2>
+                  <h2><b>Resultados  2020</b></h2>
                   <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
@@ -190,7 +190,7 @@ class Atencion extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -313,7 +313,7 @@ class Atencion extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>

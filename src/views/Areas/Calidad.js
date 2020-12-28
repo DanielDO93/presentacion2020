@@ -10,12 +10,12 @@ class Calidad extends Component {
   render() {
     return (
       <div className="section">
-         <div className="slide">
+        <div className="slide">
           <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
-                  <h2><b>Objetivos anuales 2020</b></h2>
+                  <h2><b>Resultados  2020</b></h2>
                   <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
@@ -46,7 +46,7 @@ class Calidad extends Component {
                         <Nav.Item>
                           <Nav.Link eventKey="7" className="text-white"> Cumplimiento de Clínica de Calidad en plantilla </Nav.Link>
                         </Nav.Item>
-                      
+
                       </Nav>
                     </Col>
                     <Col sm={12}>
@@ -167,7 +167,7 @@ class Calidad extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={8} text="¨+-8¨"  color="green" />
+                              <Progress value={8} text="¨+-8¨" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -183,15 +183,15 @@ class Calidad extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={95.6}   color="green" />
+                              <Progress value={95.6} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={48}  color="red" />
+                              <Progress value={48} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
-                        
+
 
                       </Tab.Content>
                     </Col>
@@ -202,12 +202,12 @@ class Calidad extends Component {
           </div>
         </div>
 
-      <div className="slide">
+        <div className="slide">
           <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -243,7 +243,7 @@ class Calidad extends Component {
                         <Nav.Item>
                           <Nav.Link eventKey="nueve" className="text-white">De proceso </Nav.Link>
                         </Nav.Item>
-                       
+
                       </Nav>
                     </Col>
                     <Col sm={12}>
@@ -259,7 +259,7 @@ class Calidad extends Component {
 
                               <Progress value={90} color="green" />
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="dos">
@@ -272,7 +272,7 @@ class Calidad extends Component {
                               <h2> <b>Objetivo</b></h2>
                               <Progress value={100} color="green" />
                             </Col>
-                           
+
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="tres">
@@ -331,7 +331,7 @@ class Calidad extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="4">
                               <h2> <b>Objetivo</b></h2>
-                              <Progress value={90}  color="green" />
+                              <Progress value={90} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="4" >
                               <h2><b>Comentarios</b></h2>
@@ -359,11 +359,11 @@ class Calidad extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
-                              <Progress value={90}  color="green" />
+                              <Progress value={90} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
-                        
+
                       </Tab.Content>
                     </Col>
                   </Row>
@@ -377,7 +377,7 @@ class Calidad extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>
@@ -422,7 +422,7 @@ class Calidad extends Component {
                             </Col>
                           </Row>
                         </Tab.Pane>
-                        
+
                       </Tab.Content>
                     </Col>
                   </Row>
@@ -431,7 +431,7 @@ class Calidad extends Component {
             </Container>
           </div>
         </div>
-        
+
         <div className="slide">
           <div className="content">
             {/*<h1 className="title2" onClick={() => (window.location.href = "/#Indice")}> Gracias</h1>*/}
@@ -441,7 +441,7 @@ class Calidad extends Component {
               alt=""
               style={{
                 width: "15%",
-                cursor:"pointer",
+                cursor: "pointer",
                 filter:
                   "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(65%)"
               }}

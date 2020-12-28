@@ -101,14 +101,15 @@ li:before {
   display: flex;
   background-color: rgba(0, 0, 0, 0.55);
   
-  width: 75vw;
-  height: 75vh;
-  max-height: 75vh;
+  width: 80vw;
+  height: 90vh;
+  max-height: 90vh;
   box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3);
    
   align-items: center;
   justify-content: center;
- 
+  margin-top: -60px;
+  margin-left: 40px;
 }
 
 .fp-slide {

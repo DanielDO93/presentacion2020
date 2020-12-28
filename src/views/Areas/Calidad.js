@@ -10,11 +10,204 @@ class Calidad extends Component {
   render() {
     return (
       <div className="section">
+         <div className="slide">
+          <div className="content">
+            <Container>
+              <Row>
+                <Col xs="12">
+                  <h2><b>Objetivos anuales 2020</b></h2>
+                  <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
+                  <h2><b className=" top">KPI´s: </b></h2>
+                </Col>
+              </Row>
+              <Row>
+                <Tab.Container id="left-tabs-example" defaultActiveKey="1">
+                  <Row>
+                    <Col sm={12}>
+                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Nav.Item>
+                          <Nav.Link eventKey="1" className="text-white">Días en meta  </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="2" className="text-white">Monitoreos en tiempo  </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="3" className="text-white"> Cobertura de monitoreo </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="4" className="text-white"> Retroalimentaciones en tiempo </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="5" className="text-white"> Nota de Calidad global</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="6" className="text-white"> Resultado de calibración </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="7" className="text-white"> Cumplimiento de Clínica de Calidad en plantilla </Nav.Link>
+                        </Nav.Item>
+                      
+                      </Nav>
+                    </Col>
+                    <Col sm={12}>
+                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Tab.Pane eventKey="1">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={80} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={80} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={79} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={79} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="2">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={95} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={98} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={98} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={98} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="3">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={100} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={98} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={100} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={99} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="4">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={95} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={97} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={94} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={95} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="5">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={90} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={94} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={93} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={93.5} color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="6">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={10} text="¨+-10¨" color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={10} text="N/A" color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={18} text="¨+-18¨" color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={8} text="¨+-8¨"  color="green" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="7">
+                          <Row>
+                            <Col xs="12" sm="6" md="3" >
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                              <Progress value={100} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2> Real 1er. Semestre</h2>
+                              <Progress value={0} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2>Real 2do. Semestre</h2>
+                              <Progress value={95.6}   color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="3">
+                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                              <Progress value={48}  color="red" />
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        
+
+                      </Tab.Content>
+                    </Col>
+                  </Row>
+                </Tab.Container>
+              </Row>
+            </Container>
+          </div>
+        </div>
+
       <div className="slide">
           <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
+                <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -184,6 +377,7 @@ class Calidad extends Component {
             <Container>
               <Row>
                 <Col xs="12">
+                <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>

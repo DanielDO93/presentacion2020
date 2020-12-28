@@ -3,6 +3,8 @@ import "../../index.css";
 import Progress from "../Components/Progress";
 import home from "../../assets/img/home.png";
 import { Row, Col, Container } from 'reactstrap';
+import Nav from 'react-bootstrap/Nav'
+import Tab from 'react-bootstrap/Tab'
 
 class Comercial extends Component {
   render() {
@@ -10,101 +12,131 @@ class Comercial extends Component {
       <div className="section">
         <div className="slide">
           <div className="content">
-            <h1 className="title2">Command Center</h1>
-          </div>
-        </div>
-        
-        <div className="slide">
-          <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Reportes automatizados</b></h2>
+                  <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={46} color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={58}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={12}  color="green" />
-                </Col>
+              </Row>
+              <Row>
+                <Tab.Container id="left-tabs-example" defaultActiveKey="uno">
+                  <Row>
+                    <Col sm={12}>
+                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Nav.Item>
+                          <Nav.Link eventKey="uno" className="text-white">De resultado  </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="dos" className="text-white">Estratégico  </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="tres" className="text-white">De resultado </Nav.Link>
+                        </Nav.Item>
+                       
+                      </Nav>
+                    </Col>
+                    <Col sm={12}>
+                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Tab.Pane eventKey="uno">
+                          <Row>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Desarrollos con reporte estándar </h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="4">
+                              <h2> <b>Objetivo</b></h2>
+
+                              <Progress value={50} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Comentarios</b></h2>
+                              <h1>No considera interfaz con aplicaciones del cliente </h1>
+                            </Col>
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="dos">
+                          <Row>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Reportes automatizados </h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="4">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={100} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Comentarios</b></h2>
+                              <h1>De los reportes que se puedan automatizar </h1>
+                            </Col>
+
+                          </Row>
+                        </Tab.Pane>
+                        <Tab.Pane eventKey="tres">
+                          <Row>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Reportes de adherencia</h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="4">
+                              <h2> <b>Objetivo</b></h2>
+                              <Progress value={100} color="green" />
+                            </Col>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Comentarios</b></h2>
+                              <h1>De todas las campañas </h1>
+                            </Col>
+
+                          </Row>
+                        </Tab.Pane>
+                        
+                      </Tab.Content>
+                    </Col>
+                  </Row>
+                </Tab.Container>
               </Row>
             </Container>
           </div>
         </div>
-
         <div className="slide">
           <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Capacitación continua de analistas</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={4} text="4" color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={2} text="2" color="red" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={-2} text="-2" color="red" />
+                  <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>
-            </Container>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="content">
-            <Container>
               <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Reportes de adherencia</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={100}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={25}  color="red" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={-75} text="-2" color="red" />
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
+                <Tab.Container id="left-tabs-example" defaultActiveKey="cuatro">
+                  <Row>
+                    <Col sm={12}>
+                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Nav.Item>
+                          <Nav.Link eventKey="cuatro" className="text-white"> De proceso</Nav.Link>
+                        </Nav.Item>
+                      </Nav>
+                    </Col>
+                    <Col sm={12}>
+                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        <Tab.Pane eventKey="cuatro">
+                          <Row>
+                            <Col xs="12" sm="6" md="4" >
+                              <h2><b>Objetivo</b></h2>
+                              <h1>Capacitación continua </h1>
+                            </Col>
+                            <Col xs="12" sm="6" md="4">
+                              <h2> <b>Objetivo</b></h2>
 
-        <div className="slide">
-          <div className="content">
-            <Container>
-              <Row>
-                <Col xs="12">
-                  <h2><b className="border border-right-0   border-darck">Reportes de adherencia</b></h2>
-                </Col>
-                <Col xs="12" sm="6" md="4" >
-                  <h2>Objetivo  </h2>
-                  <Progress value={100}  color="green" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2> Real</h2>
-                  <Progress value={25}  color="red" />
-                </Col>
-                <Col xs="12" sm="6" md="4">
-                  <h2>% Alcance</h2>
-                  <Progress value={-75} text="-2" color="red" />
-                </Col>
+                              <Progress value={12} text="12" color="green" />
+                            </Col>
+                           
+                            
+                          </Row>
+                        </Tab.Pane>
+                        
+                      </Tab.Content>
+                    </Col>
+                  </Row>
+                </Tab.Container>
               </Row>
             </Container>
           </div>

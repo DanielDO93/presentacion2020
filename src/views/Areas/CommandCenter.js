@@ -15,7 +15,7 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                  <h2><b>Objetivos anuales 2020</b></h2>
+                  <h2><b>Resultados  2020</b></h2>
                   <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
@@ -34,7 +34,7 @@ class Comercial extends Component {
                         <Nav.Item>
                           <Nav.Link eventKey="3" className="text-white"> Reportes de adherencia </Nav.Link>
                         </Nav.Item>
-                       
+
                       </Nav>
                     </Col>
                     <Col sm={12}>
@@ -91,7 +91,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={0}  color="green" />
+                              <Progress value={0} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
@@ -99,7 +99,7 @@ class Comercial extends Component {
                             </Col>
                           </Row>
                         </Tab.Pane>
-                       
+
                       </Tab.Content>
                     </Col>
                   </Row>
@@ -114,7 +114,7 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -132,7 +132,7 @@ class Comercial extends Component {
                         <Nav.Item>
                           <Nav.Link eventKey="tres" className="text-white">De resultado </Nav.Link>
                         </Nav.Item>
-                       
+
                       </Nav>
                     </Col>
                     <Col sm={12}>
@@ -188,7 +188,7 @@ class Comercial extends Component {
 
                           </Row>
                         </Tab.Pane>
-                        
+
                       </Tab.Content>
                     </Col>
                   </Row>
@@ -202,7 +202,7 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>
@@ -229,11 +229,11 @@ class Comercial extends Component {
 
                               <Progress value={12} text="12" color="green" />
                             </Col>
-                           
-                            
+
+
                           </Row>
                         </Tab.Pane>
-                        
+
                       </Tab.Content>
                     </Col>
                   </Row>
@@ -242,16 +242,16 @@ class Comercial extends Component {
             </Container>
           </div>
         </div>
-       
+
         <div className="slide">
           <div className="content">
-          <img
+            <img
               onClick={() => (window.location.href = "/#Indice")}
               src={home}
               alt=""
               style={{
                 width: "15%",
-                cursor:"pointer",
+                cursor: "pointer",
                 filter:
                   "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(65%)"
               }}

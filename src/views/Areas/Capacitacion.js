@@ -298,6 +298,7 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
+                <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -464,6 +465,7 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
+                <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>

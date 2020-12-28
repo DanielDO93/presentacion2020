@@ -101,9 +101,9 @@ li:before {
   display: flex;
   background-color: rgba(0, 0, 0, 0.55);
   
-  width: 80vw;
-  height: 80vh;
-  max-height: 80vh;
+  width: 75vw;
+  height: 75vh;
+  max-height: 75vh;
   box-shadow: 5px 5px 5px 5px rgba(15, 15, 15, 0.3);
    
   align-items: center;

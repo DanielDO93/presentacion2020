@@ -6,15 +6,13 @@ import {
   Row,
   Col,
   Card,
-  CardBody,
-  CardImg,
-  CardHeader
+  CardHeader,
 } from "reactstrap";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
-import check from "../assets/img/brand/check.png";
 
 import Comercial from "./Areas/Comercial";
+import Atencion from "./Areas/Atencion";
 import Implementacion from "./Areas/Implementacion";
 import RRHH from "./Areas/RRHH";
 import Capacitacion from "./Areas/Capacitacion";
@@ -39,6 +37,7 @@ class Index extends Component {
             "Inicio",
             "Indice",
             "Comercial",
+            "Atencion",
             "Implementacion",
             "RRHH",
             "Capacitacion",
@@ -80,7 +79,7 @@ class Index extends Component {
                       <h1 className="transparent">Presentación Anual</h1>
                     </ReactFitText>
                     <ReactFitText>
-                      <h1 className="transparent">2019-2020</h1>
+                      <h1 className="transparent">2020-2021</h1>
                     </ReactFitText>
                   </div>
                 </div>
@@ -90,22 +89,37 @@ class Index extends Component {
                     <Row>
                       <Col className="fluid">
                         <Card
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.3)",  }}
                           onClick={() => fullpageApi.moveTo("Comercial")}
+
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
+
                           >
-                            <h3>Comercial y ATC</h3>
+                            <h3
+                            style={{paddingTop:"18px"}}
+                            >Comercial</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80, }}
-                            />
-                          </CardBody>
+                        </Card>
+                      </Col>
+
+                      <Col className="fluid">
+                        <Card
+                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          onClick={() => fullpageApi.moveTo("Atencion")}
+
+                        >
+                          <CardHeader
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
+
+                          >
+                            <h3
+                            style={{paddingTop:"5px"}}
+                            >Atención a Clientes</h3>
+                          </CardHeader>
                         </Card>
                       </Col>
 
@@ -115,18 +129,12 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>Implementación</h3>
+                            <h3 style={{paddingTop:"18px"}}>Implementación</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80, }}
-                            />
-                          </CardBody>
+
                         </Card>
                       </Col>
 
@@ -136,18 +144,12 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>RRHH</h3>
+                            <h3 style={{paddingTop:"18px"}}>RRHH</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80,  }}
-                            />
-                          </CardBody>
+
                         </Card>
                       </Col>
 
@@ -156,19 +158,13 @@ class Index extends Component {
                           onClick={() => fullpageApi.moveTo("Capacitacion")}
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
+
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>Capacitación</h3>
+                              <h3 style={{paddingTop:"18px"}}>Capacitación</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80,  }}
-                            />
-                          </CardBody>
                         </Card>
                       </Col>
 
@@ -178,18 +174,11 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>Comunicación</h3>
+                            <h3 style={{paddingTop:"18px"}}>Comunicación</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80,  }}
-                            />
-                          </CardBody>
                         </Card>
                       </Col>
                     </Row>
@@ -201,18 +190,11 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>Operación</h3>
+                            <h3 style={{paddingTop:"18px"}}>Operación</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80,  }}
-                            />
-                          </CardBody>
                         </Card>
                       </Col>
 
@@ -222,18 +204,11 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px"  }}
+                            className="zoom"
                           >
-                            <h3>TI</h3>
+                            <h3 style={{paddingTop:"18px"}}>TI</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80, }}
-                            />
-                          </CardBody>
                         </Card>
                       </Col>
 
@@ -243,18 +218,11 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>Command Center</h3>
+                            <h3 style={{paddingTop:"18px"}}>Command Center</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80,  }}
-                            />
-                          </CardBody>
                         </Card>
                       </Col>
 
@@ -264,18 +232,11 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>Calidad</h3>
+                            <h3 style={{paddingTop:"18px"}}>Calidad</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80,  }}
-                            />
-                          </CardBody>
                         </Card>
                       </Col>
 
@@ -285,18 +246,12 @@ class Index extends Component {
                           style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.3)",  cursor: "pointer",height:"82px" }}
+                            className="zoom"
                           >
-                            <h3>Procesos</h3>
+                            <h3 style={{paddingTop:"18px"}}>Procesos</h3>
                           </CardHeader>
-                          <CardBody>
-                            <CardImg
-                             className="zoom"
-                              src={check}
-                              alt="Card image cap"
-                              style={{ height: 80, width: 80,}}
-                            />
-                          </CardBody>
+                        
                         </Card>
                       </Col>
                     </Row>
@@ -304,8 +259,9 @@ class Index extends Component {
                 </div>
 
                 {/*############################################################# AREAS #############################################################*/}
-
+                
                 <Comercial />
+                <Atencion/>
                 <Implementacion />
                 <RRHH />
                 <Capacitacion />

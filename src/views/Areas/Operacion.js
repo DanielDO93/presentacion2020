@@ -10,12 +10,12 @@ class Operacion extends Component {
   render() {
     return (
       <div className="section">
-         <div className="slide">
+        <div className="slide">
           <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
-                  <h2><b>Objetivos anuales 2020</b></h2>
+                  <h2><b>Resultados  2020</b></h2>
                   <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
@@ -173,7 +173,7 @@ class Operacion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={38}  color="red" />
+                              <Progress value={38} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -189,11 +189,11 @@ class Operacion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={100} text="N/A"  color="green" />
+                              <Progress value={100} text="N/A" color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={6}  color="green" />
+                              <Progress value={6} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -213,7 +213,7 @@ class Operacion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={94}  color="green" />
+                              <Progress value={94} color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -221,19 +221,19 @@ class Operacion extends Component {
                           <Row>
                             <Col xs="12" sm="6" md="3" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={80}  color="green" />
+                              <Progress value={80} color="green" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={14}  color="red" />
+                              <Progress value={14} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={5}  color="red" />
+                              <Progress value={5} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={15}  color="red" />
+                              <Progress value={15} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -247,12 +247,12 @@ class Operacion extends Component {
           </div>
         </div>
 
-         <div className="slide">
+        <div className="slide">
           <div className="content">
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
@@ -303,7 +303,7 @@ class Operacion extends Component {
 
                               <Progress value={98} color="green" />
                             </Col>
-                           
+
 
                           </Row>
                         </Tab.Pane>
@@ -438,7 +438,7 @@ class Operacion extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>
@@ -507,7 +507,7 @@ class Operacion extends Component {
                             </Col>
                           </Row>
                         </Tab.Pane>
-                      
+
 
                       </Tab.Content>
                     </Col>
@@ -517,18 +517,18 @@ class Operacion extends Component {
             </Container>
           </div>
         </div>
-        
 
-        
+
+
         <div className="slide">
           <div className="content">
-          <img
+            <img
               onClick={() => (window.location.href = "/#Indice")}
               src={home}
               alt=""
               style={{
                 width: "15%",
-                cursor:"pointer",
+                cursor: "pointer",
                 filter:
                   "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(65%)"
               }}

@@ -221,69 +221,53 @@ class Atencion extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="uno">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Retención de clientes </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={100} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Gestión interna vs. causas de mercado </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="dos">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Crecimiento de las cuentas </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={80} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>sostenido a 3 meses </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="tres">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Presentar Propuestas de valor agregado </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={100} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Analizar continuidad del servicio </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="cuatro">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Satisfacción del cliente </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={90} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>90% de los clientes </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -337,40 +321,26 @@ class Atencion extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="seis">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Programa de fidelización </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
+                           
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="siete">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Participación en premio IMT </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="ocho">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Creación de metodología CX (Customer Experience) </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>

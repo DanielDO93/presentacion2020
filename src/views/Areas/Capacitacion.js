@@ -71,15 +71,15 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={86} color="green" />
+                              <Progress value={86} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={93} color="green" />
+                              <Progress value={93} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={90} color="green" />
+                              <Progress value={90} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -111,15 +111,15 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={86} color="green" />
+                              <Progress value={86} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={91} color="green" />
+                              <Progress value={91} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={89} color="green" />
+                              <Progress value={89} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -131,7 +131,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={81} color="green" />
+                              <Progress value={81} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
@@ -139,7 +139,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={88} color="green" />
+                              <Progress value={88} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -155,7 +155,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={0} color="green" />
+                              <Progress value={0} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
@@ -175,7 +175,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={0} text="Pendiente" color="green" />
+                              <Progress value={0} text="Pendiente" color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
@@ -191,7 +191,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={28} color="green" />
+                              <Progress value={28} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
@@ -215,11 +215,11 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={43}  color="green" />
+                              <Progress value={43}  color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={31}  color="green" />
+                              <Progress value={31}  color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -271,7 +271,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={50}  color="green" />
+                              <Progress value={50}  color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
@@ -279,7 +279,7 @@ class Comercial extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={25} t color="RED" />
+                              <Progress value={25} t color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>

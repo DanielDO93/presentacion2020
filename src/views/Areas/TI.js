@@ -7,6 +7,8 @@ import { Row, Col, Container } from 'reactstrap';
 import Nav from 'react-bootstrap/Nav'
 import Tab from 'react-bootstrap/Tab'
 
+// quitar binarios(), quitar De proceso, y comentarios.
+
 class TI extends Component {
   render() {
     return (
@@ -359,103 +361,49 @@ class TI extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="seis">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Autogestión en plataforma omnicanal </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Febrero </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="siete">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Herramienta para aplicar encuesta NOM35 </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Entregable único </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="ocho">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Repositorios de información (Dossier, minutas, checklist) </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Creación en diciembre y Mantenimiento </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="nueve">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Automatización de Plantilla actualizada </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Entregable único </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="diez">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Revisión de Bitácora de fallas y niveles de servicio Convertía </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Entregable mensual </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="once">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Revisión de Bitácora de fallas y niveles de servicio TKM </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Entregable mensual </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -465,15 +413,6 @@ class TI extends Component {
                               <h2><b>Objetivo</b></h2>
                               <h1>Inventario de equipos, licenciamiento </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Entregable trimestral </h1>
-                            </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="trece">
@@ -481,11 +420,6 @@ class TI extends Component {
                             <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Capacitación y cursos de nuevas tecnologías </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>

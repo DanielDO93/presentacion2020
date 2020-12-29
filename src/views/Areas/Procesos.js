@@ -203,50 +203,38 @@ class Comercial extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="dos">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>SLA de actualización vs. control de cambios </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
                               <Progress value={24} text="&#60; 24 hrs" color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>vs. tickets levantados </h1>
                             </Col>
 
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="tres">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Actualización de inventario de procesos</h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
                               <Progress value={100} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>1 revisión por semestre </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="cuatro">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Propuestas de valor a las campañas</h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
                               <Progress value={80} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Expecativa de mejora operativa basada en CX </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -306,154 +294,73 @@ class Comercial extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="cinco">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Implementación de NOM35 </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Agosto </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="seis">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Implementación de PCI </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Octubre </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="siete">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Auditoría de revisión ISO9001 </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Renovación en mayo </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="ocho">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Auditoría de revisión ISO27001 </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Renovación en febrero </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="nueve">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Auditoría de Calidad en la recluta </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Mensual </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="diez">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Auditar proceso de comunicación organizacional </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Mensual </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="once">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Programa de difusión de auditoría por área </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Enero </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="doce">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Auditorías Internas de control de cambios </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Aleatorio mensual </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="trece">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Auditorías Internas para ISO </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>1 por semestre </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>

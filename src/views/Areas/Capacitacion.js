@@ -408,18 +408,14 @@ class Comercial extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="seis">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Certificación staff trimestral con cliente </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={90} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>90% del personal apruebe con 90% de calificación </h1>
                             </Col>
 
                           </Row>
@@ -505,96 +501,53 @@ class Comercial extends Component {
                               <h2><b>Objetivo</b></h2>
                               <h1>Registrar a cursos en STPS </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="diez">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Registrar a instructores en STPS </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="once">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Programa de gamificación </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="doce">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Modelo de capacitación con base en fortalezas y competencias </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="trece">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Implementación de Programa onboarding / inducción staff </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Enero </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="catorce">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Continuidad a programa Universidad CCS </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="quince">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Metodología de Capacitación Taxonomía de Bloom </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="4">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Marzo </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>

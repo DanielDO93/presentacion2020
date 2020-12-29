@@ -242,18 +242,14 @@ class Comercial extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="uno">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Reclutamiento QA </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={95} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Basado en escala de Likert </h1>
                             </Col>
 
                           </Row>
@@ -288,18 +284,14 @@ class Comercial extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="cuatro">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Personal Mayor de &#62; 40 </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={20} color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>A revisar vs. productivifad en HO </h1>
                             </Col>
 
                           </Row>
@@ -388,11 +380,6 @@ class Comercial extends Component {
                               <h2><b>Objetivo</b></h2>
                               <h1>Encuesta de clima organizacional </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="nueve">
@@ -401,11 +388,6 @@ class Comercial extends Component {
                               <h2><b>Objetivo</b></h2>
                               <h1>Plantilla actualizada </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
-                            </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="diez">
@@ -413,11 +395,6 @@ class Comercial extends Component {
                             <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Implementación de metodología 9Box Grid </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>

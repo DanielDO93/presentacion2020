@@ -99,15 +99,15 @@ class Calidad extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={98} color="green" />
+                              <Progress value={98} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={100} color="green" />
+                              <Progress value={100} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={99} color="green" />
+                              <Progress value={99} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -123,7 +123,7 @@ class Calidad extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={94} color="green" />
+                              <Progress value={94} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
@@ -179,11 +179,11 @@ class Calidad extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={0} color="green" />
+                              <Progress value={0} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={95.6} color="green" />
+                              <Progress value={95.6} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>

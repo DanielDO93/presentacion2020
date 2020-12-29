@@ -83,15 +83,15 @@ class Atencion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2> Real 1er. Semestre</h2>
-                              <Progress value={92} color="green" />
+                              <Progress value={92} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2>Real 2do. Semestre</h2>
-                              <Progress value={98} color="green" />
+                              <Progress value={98} color="red" />
                             </Col>
                             <Col xs="12" sm="6" md="3">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={95} color="green" />
+                              <Progress value={95} color="red" />
                             </Col>
                           </Row>
                         </Tab.Pane>

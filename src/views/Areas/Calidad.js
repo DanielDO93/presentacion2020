@@ -325,17 +325,13 @@ class Calidad extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="siete">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Certificación staff mensual</h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
                               <Progress value={90} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>90% del personal apruebe con 90% de calificación </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -398,27 +394,17 @@ class Calidad extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="diez">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Implementación de metodología Sprint </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="once">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Implementación de metología CX </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="Binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>

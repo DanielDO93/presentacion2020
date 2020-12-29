@@ -393,18 +393,14 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="ocho">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Certificación staff mensual</h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={90} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>90% del personal apruebe con 90% de calificación </h1>
                             </Col>
 
                           </Row>
@@ -462,48 +458,35 @@ class Operacion extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="cuatro">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Capacitación para supervisores </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={12} text="12" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>12 cursos anuales </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="cinco">
                           <Row>
-                            <Col xs="12" sm="6" md="4" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Capacitación para coordinadores </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="4">
+                            <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
 
                               <Progress value={6} text="6" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="4" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>6 cursos anuales </h1>
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="seis">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" >
                               <h2><b>Objetivo</b></h2>
                               <h1>Validación de Plantilla actualizada </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>

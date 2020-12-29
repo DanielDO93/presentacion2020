@@ -194,10 +194,6 @@ class Comercial extends Component {
 
                               <Progress value={80} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Comentarios</b></h2>
-                              <h1>Considera los nuevos proyectos y renovaciones </h1>
-                            </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="dos">
@@ -334,66 +330,41 @@ class Comercial extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="nueve">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Estrategia de marketing digital global (interna / clientes) </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="diez">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Rediseño de página CCS y presentación comercial </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="once">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Generar branding en eventos y networking </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="doce">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Contratos y presentaciones comerciales en plataforma </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="trece">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12"  >
                               <h2><b>Objetivo</b></h2>
                               <h1>Red comercial y alianzas </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={0} text="binario" color="green" />
                             </Col>
                           </Row>
                         </Tab.Pane>

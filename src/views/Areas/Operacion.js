@@ -59,19 +59,12 @@ class Operacion extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="1">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={98} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={73} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={76} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={74} color="green" />
                             </Col>
@@ -79,19 +72,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="2">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={90} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={85} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={90} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={88} color="green" />
                             </Col>
@@ -99,19 +85,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="3">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={90} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={93} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={93} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={93} color="green" />
                             </Col>
@@ -119,19 +98,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="4">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={100} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={100} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={98} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                          
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={99} color="green" />
                             </Col>
@@ -139,19 +111,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="5">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={90} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={77} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={94} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={87} color="green" />
                             </Col>
@@ -159,19 +124,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="6">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={8} text="8" color="red" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={2} text="2" color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={3} text="3" color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={38} color="red" />
                             </Col>
@@ -179,19 +137,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="7">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={10} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={6} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={100} text="N/A" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={6} color="green" />
                             </Col>
@@ -199,19 +150,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="8">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={95} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={94} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={100} text="N/A" color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={94} color="green" />
                             </Col>
@@ -219,19 +163,12 @@ class Operacion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="9">
                           <Row>
-                            <Col xs="12" sm="6" md="3" >
+                            <Col xs="12" sm="6" md="6" >
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
                               <Progress value={80} color="green" />
                             </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={14} color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={5} color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
+                           
+                            <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={15} color="red" />
                             </Col>
@@ -261,32 +198,24 @@ class Operacion extends Component {
                   <Row>
                     <Col sm={12}>
                       <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                        
+                        <Nav.Item>
+                          <Nav.Link eventKey="nueve" className="text-white">Estratégico </Nav.Link>
+                        </Nav.Item>
+                      <Nav.Item>
+                          <Nav.Link eventKey="dos" className="text-white">Estratégico  </Nav.Link>
+                        </Nav.Item>
                         <Nav.Item>
                           <Nav.Link eventKey="uno" className="text-white">De resultado  </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="dos" className="text-white">Estratégico  </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
                           <Nav.Link eventKey="tres" className="text-white">De resultado </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="cuatro" className="text-white">De proceso </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                           <Nav.Link eventKey="cinco" className="text-white">De resultado </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                           <Nav.Link eventKey="seis" className="text-white">De resultado</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="siete" className="text-white">De proceso </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="ocho" className="text-white">De proceso </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="nueve" className="text-white">Estratégico </Nav.Link>
                         </Nav.Item>
                       </Nav>
                     </Col>
@@ -335,20 +264,6 @@ class Operacion extends Component {
 
                           </Row>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="cuatro">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Programa superivsores VIP</h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={8} text="8" color="green" />
-                            </Col>
-
-                          </Row>
-                        </Tab.Pane>
                         <Tab.Pane eventKey="cinco">
                           <Row>
                             <Col xs="12" sm="6" md="6" >
@@ -377,34 +292,6 @@ class Operacion extends Component {
 
                           </Row>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="siete">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Programación y adherencia de agentes VIP</h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={95} color="green" />
-                            </Col>
-
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="ocho">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Certificación staff mensual</h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={90} color="green" />
-                            </Col>
-
-                          </Row>
-                        </Tab.Pane>
                         <Tab.Pane eventKey="nueve">
                           <Row>
                             <Col xs="12" sm="6" md="6" >
@@ -429,7 +316,7 @@ class Operacion extends Component {
             </Container>
           </div>
         </div>
-        <div className="slide">
+        {/* <div className="slide">
           <div className="content">
             <Container>
               <Row>
@@ -500,7 +387,7 @@ class Operacion extends Component {
             </Container>
           </div>
         </div>
-
+ */}
 
 
         <div className="slide">

@@ -9,7 +9,7 @@ class Progress extends Component {
     text: null,
     value: null,
     color: "red",
-    size: 200
+    size: 100
   };
 
   render() {

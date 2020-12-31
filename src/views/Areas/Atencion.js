@@ -164,9 +164,9 @@ class Atencion extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="uno">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" sm="6" md="6" className="text-left" >
                               <h2><b>Objetivo</b></h2>
-                              <h1>Retención de clientes </h1>
+                              <h1 className="pl-3">Retención de clientes </h1>
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
@@ -175,22 +175,22 @@ class Atencion extends Component {
                             </Col>
                           </Row>
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" sm="6" md="6" className="text-left">
                               {/* <h2><b>Objetivo</b></h2> */}
-                              <h1>Crecimiento de las cuentas </h1>
+                              <h1 className="pl-3">Crecimiento de las cuentas </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="6">
+                            <Col xs="12" sm="6" md="6" className="pt-3 pb-3">
                               {/* <h2> <b>Objetivo</b></h2> */}
                             
                                <Progress value={80} color="green" /> 
                             </Col>
                           </Row>
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" sm="6" md="6" className="text-left">
                               {/* <h2><b>Objetivo</b></h2> */}
-                              <h1>Satisfacción del cliente </h1>
+                             <h1 className="pl-3"> Satisfacción del cliente </h1>
                             </Col>
-                            <Col xs="12" sm="6" md="6">
+                            <Col xs="12" sm="6" md="6" >
                               {/* <h2> <b>Objetivo</b></h2> */}
                              
                               <Progress value={90} color="green" /> 
@@ -199,7 +199,7 @@ class Atencion extends Component {
                         </Tab.Pane>
                         <Tab.Pane eventKey="dos">
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" sm="6" md="6" className="text-left">
                               <h2><b>Objetivo</b></h2>
                               <h1>Presentar Propuestas de valor agregado </h1>
                             </Col>
@@ -210,9 +210,9 @@ class Atencion extends Component {
                             </Col>
                           </Row>
                           <Row>
-                            <Col xs="12" sm="6" md="6" >
+                            <Col xs="12" sm="6" md="6" className="text-left">
                               {/* <h2><b>Objetivo</b></h2> */}
-                              <h1>Cobranza temprana </h1>
+                              {  }<h1>Cobranza temprana </h1>
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               {/* <h2> <b>Objetivo</b></h2> */}

@@ -170,8 +170,8 @@ class Atencion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
-                              <h2>100%</h2>
-                              {/* <Progress value={100} color="green" /> */}
+                             
+                               <Progress value={100} color="green" /> 
                             </Col>
                           </Row>
                           <Row>
@@ -181,8 +181,8 @@ class Atencion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               {/* <h2> <b>Objetivo</b></h2> */}
-                              <h2>80%</h2>
-                              {/* <Progress value={80} color="green" /> */}
+                            
+                               <Progress value={80} color="green" /> 
                             </Col>
                           </Row>
                           <Row>
@@ -192,8 +192,8 @@ class Atencion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               {/* <h2> <b>Objetivo</b></h2> */}
-                              <h2>90%</h2>
-                              {/* <Progress value={90} color="green" /> */}
+                             
+                              <Progress value={90} color="green" /> 
                             </Col>
                           </Row>
                         </Tab.Pane>
@@ -205,8 +205,8 @@ class Atencion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               <h2> <b>Objetivo</b></h2>
-                              <h2>100%</h2>
-                              {/* <Progress value={100} color="green" /> */}
+                             
+                              <Progress value={100} color="green" /> 
                             </Col>
                           </Row>
                           <Row>
@@ -216,8 +216,8 @@ class Atencion extends Component {
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               {/* <h2> <b>Objetivo</b></h2> */}
-                              <h2>90%</h2>
-                              {/* <Progress value={90} color="green" /> */}
+                            
+                               <Progress value={90} color="green" /> 
                             </Col>
                           </Row>
                         </Tab.Pane>

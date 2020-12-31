@@ -148,83 +148,88 @@ class Atencion extends Component {
               </Row>
               <Row>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="uno">
-                 
-                    <Col sm={12}>
-                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Nav.Item>
-                          <Nav.Link eventKey="uno" className="text-white">Estratégico</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="dos" className="text-white">De resultado</Nav.Link>
-                        </Nav.Item>
 
-                      </Nav>
-                    </Col>
-                    <Col sm={12}>
-                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Tab.Pane eventKey="uno">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" className="text-left" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1 className="pl-3">Retención de clientes </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-                             
-                               <Progress value={100} color="green" /> 
-                            </Col>
-                          </Row>
-                          <Row>
-                            <Col xs="12" sm="6" md="6" className="text-left">
-                              {/* <h2><b>Objetivo</b></h2> */}
-                              <h1 className="pl-3">Crecimiento de las cuentas </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6" className="pt-3 pb-3">
-                              {/* <h2> <b>Objetivo</b></h2> */}
-                            
-                               <Progress value={80} color="green" /> 
-                            </Col>
-                          </Row>
-                          <Row>
-                            <Col xs="12" sm="6" md="6" className="text-left">
-                              {/* <h2><b>Objetivo</b></h2> */}
-                             <h1 className="pl-3"> Satisfacción del cliente </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6" >
-                              {/* <h2> <b>Objetivo</b></h2> */}
-                             
-                              <Progress value={90} color="green" /> 
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="dos">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" className="text-left">
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Presentar Propuestas de valor agregado </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-                             
-                              <Progress value={100} color="green" /> 
-                            </Col>
-                          </Row>
-                          <Row>
-                            <Col xs="12" sm="6" md="6" className="text-left">
-                              {/* <h2><b>Objetivo</b></h2> */}
-                              {  }<h1>Cobranza temprana </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              {/* <h2> <b>Objetivo</b></h2> */}
-                            
-                               <Progress value={90} color="green" /> 
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
+                  <Col sm={12}>
+                    <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Nav.Item>
+                        <Nav.Link eventKey="uno" className="text-white">Estratégico</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="dos" className="text-white">De resultado</Nav.Link>
+                      </Nav.Item>
 
-                      </Tab.Content>
-                    </Col>
-                
+                    </Nav>
+                  </Col>
+                  <Col sm={12}>
+                    <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Tab.Pane eventKey="uno">
+                        <Row>
+                          <Col xs="6" className="text-left">
+                            <h2 ><b>Objetivo</b></h2>
+                          </Col>
+                          <Col xs="6" className="">
+                            <h2 ><b>Objetivo</b></h2>
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Retención de clientes </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="">
+                            <Progress value={100} color="green" />
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            {/* <h2><b>Objetivo</b></h2> */}
+                            <h1 className="pl-3">Crecimiento de las cuentas </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="pt-3 pb-3">
+                            {/* <h2> <b>Objetivo</b></h2> */}
+
+                            <Progress value={80} color="green" />
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center" >
+                            {/* <h2><b>Objetivo</b></h2> */}
+                            <h1 className="pl-3"> Satisfacción del cliente </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" >
+                            {/* <h2> <b>Objetivo</b></h2> */}
+
+                            <Progress value={90} color="green" />
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="dos">
+                        <Row>
+                          <Col xs="12" sm="6" md="6" className="text-left">
+                            <h2><b>Objetivo</b></h2>
+                            <h1>Presentar Propuestas de valor agregado </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6">
+                            <h2> <b>Objetivo</b></h2>
+
+                            <Progress value={100} color="green" />
+                          </Col>
+                        </Row>
+                        <Row>
+                          <Col xs="12" sm="6" md="6" className="text-left">
+                            {/* <h2><b>Objetivo</b></h2> */}
+                            { }<h1>Cobranza temprana </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6">
+                            {/* <h2> <b>Objetivo</b></h2> */}
+
+                            <Progress value={90} color="green" />
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+
+                    </Tab.Content>
+                  </Col>
+
                 </Tab.Container>
               </Row>
             </Container>

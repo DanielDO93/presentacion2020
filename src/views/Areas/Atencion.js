@@ -57,8 +57,13 @@ class Atencion extends Component {
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="1">
                           <Row>
-                            <Col xs="12" sm="6" md="6" className="" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                            <Col xs="12" sm="6" md="6" className="d-flex align-items-center" >
+                            <Row>
+                                <Col xs="12" className="d-flex align-items-center">
+                                <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                </Col>
+                              </Row>
+                              
                               <Row>
                                 <Col xs="12" className="d-flex align-items-center">
                                   <div style={{ width: "200px" }}>

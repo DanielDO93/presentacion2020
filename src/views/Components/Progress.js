@@ -9,7 +9,7 @@ class Progress extends Component {
     text: null,
     value: null,
     color: "red",
-   
+    size: 100
   };
 
   render() {
@@ -21,7 +21,7 @@ class Progress extends Component {
             <CircularProgressbar
               styles={{
                 root: {
-                  width: "100%"
+                  width: this.props.size
                 },
                 path: {
                   stroke:

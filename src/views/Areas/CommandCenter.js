@@ -20,91 +20,68 @@ class Comercial extends Component {
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
               </Row>
-              <Row>
-                <Tab.Container id="left-tabs-example" defaultActiveKey="1">
-                  <Row>
-                    <Col sm={12}>
-                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Nav.Item>
-                          <Nav.Link eventKey="1" className="text-white">Reportes automatizados  </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="2" className="text-white">Capacitación continua de analistas  </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="3" className="text-white"> Reportes de adherencia </Nav.Link>
-                        </Nav.Item>
+              <Tab.Container id="left-tabs-example" defaultActiveKey="1">
+                <Row>
+                  <Col sm={12}>
+                    <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Nav.Item>
+                        <Nav.Link eventKey="1" className="text-white">Reportes automatizados  </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="2" className="text-white">Capacitación continua de analistas  </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="3" className="text-white"> Reportes de adherencia </Nav.Link>
+                      </Nav.Item>
 
-                      </Nav>
-                    </Col>
-                    <Col sm={12}>
-                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Tab.Pane eventKey="1">
-                          <Row>
-                            <Col xs="12" sm="6" md="3" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={46} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={58} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={11} color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={35} color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="2">
-                          <Row>
-                            <Col xs="12" sm="6" md="3" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={12} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={2} color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={1} color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={25} color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="3">
-                          <Row>
-                            <Col xs="12" sm="6" md="3" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={100} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2> Real 1er. Semestre</h2>
-                              <Progress value={25} color="red" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2>Real 2do. Semestre</h2>
-                              <Progress value={0} color="green" />
-                            </Col>
-                            <Col xs="12" sm="6" md="3">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={12.5} color="red" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
+                    </Nav>
+                  </Col>
+                  <Col sm={12}>
+                    <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Tab.Pane eventKey="1">
+                        <Row>
+                          <Col xs="12" sm="6" md="6" >
+                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                            <Progress value={46} color="green" />
+                          </Col>
+                         
+                          <Col xs="12" sm="6" md="6">
+                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                            <Progress value={35} color="green" />
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="2">
+                        <Row>
+                          <Col xs="12" sm="6" md="6" >
+                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                            <Progress value={12} color="green" />
+                          </Col>
+                         
+                          <Col xs="12" sm="6" md="6">
+                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                            <Progress value={25} color="green" />
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="3">
+                        <Row>
+                          <Col xs="12" sm="6" md="6" >
+                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                            <Progress value={100} color="green" />
+                          </Col>
+                         
+                          <Col xs="12" sm="6" md="6">
+                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                            <Progress value={12.5} color="red" />
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
 
-                      </Tab.Content>
-                    </Col>
-                  </Row>
-                </Tab.Container>
-              </Row>
+                    </Tab.Content>
+                  </Col>
+                </Row>
+              </Tab.Container>
             </Container>
           </div>
         </div>
@@ -118,74 +95,73 @@ class Comercial extends Component {
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
-              <Row>
-                <Tab.Container id="left-tabs-example" defaultActiveKey="uno">
-                  <Row>
-                    <Col sm={12}>
-                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Nav.Item>
-                          <Nav.Link eventKey="uno" className="text-white">De resultado  </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="dos" className="text-white">Estratégico  </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="tres" className="text-white">De resultado </Nav.Link>
-                        </Nav.Item>
+              <Tab.Container id="left-tabs-example" defaultActiveKey="uno">
+                <Row>
+                  <Col sm={12}>
+                    <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Nav.Item>
+                        <Nav.Link eventKey="uno" className="text-white">De resultado  </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="dos" className="text-white">Estratégico  </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="tres" className="text-white">De resultado </Nav.Link>
+                      </Nav.Item>
 
-                      </Nav>
-                    </Col>
-                    <Col sm={12}>
-                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Tab.Pane eventKey="uno">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Desarrollos con reporte estándar </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
+                    </Nav>
+                  </Col>
+                  <Col sm={12}>
+                    <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Tab.Pane eventKey="uno">
+                        <Row>
+                          <Col xs="12" sm="6" md="6" >
+                            <h2><b>Objetivo</b></h2>
+                            <h1>Desarrollos con reporte estándar </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6">
+                            <h2> <b>Objetivo</b></h2>
 
-                              <Progress value={50} color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="dos">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Reportes automatizados </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-                              <Progress value={100} color="green" />
-                            </Col>
+                            <Progress value={50} color="green" />
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="dos">
+                        <Row>
+                          <Col xs="12" sm="6" md="6" >
+                            <h2><b>Objetivo</b></h2>
+                            <h1>Reportes automatizados </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6">
+                            <h2> <b>Objetivo</b></h2>
+                            <Progress value={100} color="green" />
+                          </Col>
 
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="tres">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Reportes de adherencia</h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-                              <Progress value={100} color="green" />
-                            </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="tres">
+                        <Row>
+                          <Col xs="12" sm="6" md="6" >
+                            <h2><b>Objetivo</b></h2>
+                            <h1>Reportes de adherencia</h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6">
+                            <h2> <b>Objetivo</b></h2>
+                            <Progress value={100} color="green" />
+                          </Col>
 
-                          </Row>
-                        </Tab.Pane>
+                        </Row>
+                      </Tab.Pane>
 
-                      </Tab.Content>
-                    </Col>
-                  </Row>
-                </Tab.Container>
-              </Row>
+                    </Tab.Content>
+                  </Col>
+                </Row>
+              </Tab.Container>
+
             </Container>
           </div>
         </div>
-        <div className="slide">
+        {/* <div className="slide">
           <div className="content">
             <Container>
               <Row>
@@ -229,7 +205,7 @@ class Comercial extends Component {
               </Row>
             </Container>
           </div>
-        </div>
+        </div> */}
 
         <div className="slide">
           <div className="content">

@@ -261,12 +261,14 @@ table.alt tfoot {
   height: 85;
   width: 85;
    opacity: 0.8;
+   background-color: rgba(0,0,0,0.3);
 }
 
 .zoom:hover{
    opacity: 0.3;
    height: 85 !important;
    width: 85 !important;
+   background-color: rgba(0,0,0,0.3);
 }
 
 

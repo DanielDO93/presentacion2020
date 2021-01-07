@@ -54,12 +54,12 @@ class Index extends Component {
               <ReactFullpage.Wrapper>
                 <div className="section">
                   <div
-                    style={{
-                      padding: "3%",
-                      textAlign: "center",
-                      backgroundColor: "rgba(0,0,0,0.3)",
-                      width: "50vw"
-                    }}
+                    // style={{
+                    //   padding: "3%",
+                    //   textAlign: "center",
+                    //   backgroundColor: "rgba(0,0,0,0.3)",
+                    //   width: "50vw"
+                    // }}
                   >
                     <img
                       src={logo}
@@ -89,12 +89,12 @@ class Index extends Component {
                     <Row>
                       <Col className="fluid">
                         <Card
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)",  }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)",  }}
                           onClick={() => fullpageApi.moveTo("Comercial")}
 
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
 
                           >
@@ -107,12 +107,12 @@ class Index extends Component {
 
                       <Col className="fluid">
                         <Card
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                           onClick={() => fullpageApi.moveTo("Atencion")}
 
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
 
                           >
@@ -126,10 +126,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("Implementacion")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>Implementación</h3>
@@ -141,10 +141,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("RRHH")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>RRHH</h3>
@@ -156,11 +156,11 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("Capacitacion")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
 
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                               <h3 style={{paddingTop:"18px"}}>Capacitación</h3>
@@ -171,10 +171,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("Comunicacion")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>Comunicación</h3>
@@ -187,10 +187,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("Operacion")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>Operación</h3>
@@ -201,10 +201,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("TI")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px"  }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px"  }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>TI</h3>
@@ -215,10 +215,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("CommandCenter")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>Command Center</h3>
@@ -229,10 +229,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("Calidad")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)", cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>Calidad</h3>
@@ -243,10 +243,10 @@ class Index extends Component {
                       <Col className="fluid">
                         <Card
                           onClick={() => fullpageApi.moveTo("Procesos")}
-                          style={{ backgroundColor: "rgba(0,0,0,0.3)" }}
+                          style={{ backgroundColor: "rgba(0,0,0,0.0)" }}
                         >
                           <CardHeader
-                            style={{ backgroundColor: "rgba(0,0,0,0.3)",  cursor: "pointer",height:"82px" }}
+                            style={{ backgroundColor: "rgba(0,0,0,0.0)",  cursor: "pointer",height:"82px" }}
                             className="zoom"
                           >
                             <h3 style={{paddingTop:"18px"}}>Procesos</h3>

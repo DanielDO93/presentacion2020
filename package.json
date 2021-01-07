@@ -16,6 +16,7 @@
     "@coreui/icons": "0.3.0",
     "@coreui/react": "~2.5.0",
     "@fullpage/react-fullpage": "^0.1.17",
+    "animate.css": "^4.1.1",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.9.3",
     "chartjs-plugin-deferred": "^1.0.1",

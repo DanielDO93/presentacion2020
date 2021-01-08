@@ -94,18 +94,6 @@ class Atencion extends Component {
                                 }
                               </div>
                             </Col>
-
-                            {/* <Col xs="12" sm="6" md="6" >
-
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={90} color="green" />
-
-
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={0} text="N/A" color="green" />
-                            </Col> */}
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="2">

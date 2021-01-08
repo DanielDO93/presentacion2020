@@ -14,7 +14,10 @@ import Tab from 'react-bootstrap/Tab'
 
 
 class Comercial extends Component {
-  render() {
+ 
+
+  render() { 
+  
     return (
       <div className="section">
 
@@ -25,7 +28,7 @@ class Comercial extends Component {
                 <Col xs="12">
                   <h2><b>Resultados  2020</b></h2>
                   <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
-                  <h2><b className=" top">KPI´s: </b></h2>
+                  <h2><b className="top">KPI´s: </b></h2>
                 </Col>
               </Row>
             

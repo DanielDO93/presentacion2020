@@ -28,7 +28,6 @@ class Comercial extends Component {
               <Row>
                 <Col xs="12">
                   <h2><b>Resultados  2020</b></h2>
-                  <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
               </Row>

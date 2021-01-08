@@ -7,6 +7,21 @@ import Tab from 'react-bootstrap/Tab'
 import { Row, Col, Container } from 'reactstrap';
 
 class Operacion extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      progress1: true,
+      progress2: true,
+      progress3: true,
+      progress4: true,
+      progress5: true,
+      progress6: true,
+      progress7: true,
+      progress8: true,
+      progress9: true,
+    };
+  }
+
   render() {
     return (
       <div className="section">
@@ -16,7 +31,6 @@ class Operacion extends Component {
               <Row>
                 <Col xs="12">
                   <h2><b>Resultados  2020</b></h2>
-                  <h2><b>1er. Semestre vs. 2do. Semestre</b></h2>
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
               </Row>
@@ -57,128 +71,234 @@ class Operacion extends Component {
                   <Col sm={12}>
                     <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                       <Tab.Pane eventKey="1">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={98} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={74} color="green" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress1: false })}
+                              onMouseLeave={() => this.setState({ progress1: true })}>
+                              {
+                                this.state.progress1 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={98} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={74} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="2">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={90} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={88} color="green" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress2: false })}
+                              onMouseLeave={() => this.setState({ progress2: true })}>
+                              {
+                                this.state.progress2 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={90} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={88} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="3">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={90} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={93} color="green" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress3: false })}
+                              onMouseLeave={() => this.setState({ progress3: true })}>
+                              {
+                                this.state.progress3 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={90} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={93} color="green" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="4">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={100} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={99} color="green" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress4: false })}
+                              onMouseLeave={() => this.setState({ progress4: true })}>
+                              {
+                                this.state.progress4 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={100} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={99} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="5">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={90} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={87} color="green" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress5: false })}
+                              onMouseLeave={() => this.setState({ progress5: true })}>
+                              {
+                                this.state.progress5 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={90} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={87} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="6">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={8} text="8" color="red" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={38} color="red" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress6: false })}
+                              onMouseLeave={() => this.setState({ progress6: true })}>
+                              {
+                                this.state.progress6 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={8} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={38} color="green" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="7">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={10} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={6} color="green" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress7: false })}
+                              onMouseLeave={() => this.setState({ progress7: true })}>
+                              {
+                                this.state.progress7 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={10} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={6} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="8">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={95} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={94} color="green" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress8: false })}
+                              onMouseLeave={() => this.setState({ progress8: true })}>
+                              {
+                                this.state.progress8 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={95} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={94} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="9">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                            <Progress value={80} color="green" />
-                          </Col>
-
-                          <Col xs="12" sm="6" md="6">
-                            <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                            <Progress value={15} color="red" />
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress9: false })}
+                              onMouseLeave={() => this.setState({ progress9: true })}>
+                              {
+                                this.state.progress9 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={80} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={15} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
                           </Col>
                         </Row>
                       </Tab.Pane>
-
                     </Tab.Content>
                   </Col>
                 </Row>
               </Tab.Container>
-
             </Container>
           </div>
         </div>
@@ -198,119 +318,99 @@ class Operacion extends Component {
                     <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
 
                       <Nav.Item>
-                        <Nav.Link eventKey="nueve" className="text-white">Estratégico </Nav.Link>
+                        <Nav.Link eventKey="uno" className="text-white">Estratégico </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="dos" className="text-white">Estratégico  </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="uno" className="text-white">De resultado  </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="tres" className="text-white">De resultado </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="cinco" className="text-white">De resultado </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="seis" className="text-white">De resultado</Nav.Link>
+                        <Nav.Link eventKey="dos" className="text-white">De resultado  </Nav.Link>
                       </Nav.Item>
                     </Nav>
                   </Col>
                   <Col sm={12}>
                     <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                       <Tab.Pane eventKey="uno">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2><b>Objetivo</b></h2>
-                            <h1>Adherencia a dimensionamiento </h1>
+                        <Row className="pb-3">
+                          <Col xs="6" className="text-left">
+                            <h2 ><b>Objetivo</b></h2>
                           </Col>
-                          <Col xs="12" sm="6" md="6">
-                            <h2> <b>Objetivo</b></h2>
-
-                            <Progress value={98} color="green" />
+                          <Col xs="6" className="">
+                            <h2 ><b>Objetivo</b></h2>
                           </Col>
-
-
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Cobertura de Horas </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
+                              <Progress value={100} color="green" />
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Penalizaciones por contato </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
+                              <Progress value={0} color="green" />
+                            </div>
+                          </Col>
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="dos">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2><b>Objetivo</b></h2>
-                            <h1>Cobertura de Horas </h1>
+                        <Row className="pb-3">
+                          <Col xs="6" className="text-left">
+                            <h2 ><b>Objetivo</b></h2>
                           </Col>
-                          <Col xs="12" sm="6" md="6">
-                            <h2> <b>Objetivo</b></h2>
-
-                            <Progress value={100} color="green" />
+                          <Col xs="6" className="">
+                            <h2 ><b>Objetivo</b></h2>
                           </Col>
-
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Adherencia a dimensionamiento </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
+                              <Progress value={98} color="green" />
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Retención de Supervisores </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
+                              <Progress value={90} color="green" />
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Cobertura de Horas VIP </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
+                              <Progress value={10} color="green" />
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Conexión de agentes VIP </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
+                              <Progress value={95} color="green" />
+                            </div>
+                          </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="tres">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2><b>Objetivo</b></h2>
-                            <h1>Retención de Supervisores</h1>
-                          </Col>
-                          <Col xs="12" sm="6" md="6">
-                            <h2> <b>Objetivo</b></h2>
-
-                            <Progress value={90} color="green" />
-                          </Col>
-
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="cinco">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2><b>Objetivo</b></h2>
-                            <h1>Cobertura de Horas VIP</h1>
-                          </Col>
-                          <Col xs="12" sm="6" md="6">
-                            <h2> <b>Objetivo</b></h2>
-
-                            <Progress value={10} color="green" />
-                          </Col>
-
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="seis">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2><b>Objetivo</b></h2>
-                            <h1>Conexión de agentes VIP</h1>
-                          </Col>
-                          <Col xs="12" sm="6" md="6">
-                            <h2> <b>Objetivo</b></h2>
-
-                            <Progress value={95} color="green" />
-                          </Col>
-
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="nueve">
-                        <Row>
-                          <Col xs="12" sm="6" md="6" >
-                            <h2><b>Objetivo</b></h2>
-                            <h1>Penalizaciones por contato</h1>
-                          </Col>
-                          <Col xs="12" sm="6" md="6">
-                            <h2> <b>Objetivo</b></h2>
-
-                            <Progress value={0} color="green" />
-                          </Col>
-
-                        </Row>
-                      </Tab.Pane>
-
-
                     </Tab.Content>
                   </Col>
                 </Row>
               </Tab.Container>
-
             </Container>
           </div>
         </div>

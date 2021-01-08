@@ -22,6 +22,8 @@ import TI from "./Areas/TI";
 import CommandCenter from "./Areas/CommandCenter";
 import Calidad from "./Areas/Calidad";
 import Procesos from "./Areas/Procesos";
+import 'animate.css'
+
 
 class Index extends Component {
   render() {
@@ -70,16 +72,16 @@ class Index extends Component {
                       }
                       width={400}
                       alt="logo"
-                      className="img-fluid"
+                      className="img-fluid animated  animate__backInDown"
                       style={{
                         filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
                       }}
                     />
                     <ReactFitText compressor={1.5}>
-                      <h1 className="transparent">Presentación Anual</h1>
+                      <h1 className="transparent animated  animate__backInLeft delay-1s">Presentación Anual</h1>
                     </ReactFitText>
                     <ReactFitText>
-                      <h1 className="transparent">2020-2021</h1>
+                      <h1 className="transparent animated animate__backInRight delay-2s">2020-2021</h1>
                       
                     </ReactFitText>
                    

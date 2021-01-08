@@ -18,6 +18,7 @@ class Comercial extends Component {
       progress4: true,
     };
   }
+  
   render() {
     return (
       <div className="section">

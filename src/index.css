@@ -275,3 +275,18 @@ table.alt tfoot {
 .top{
  margin-top: 20px;
 }
+
+
+.centrado-fila {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*COMPATIBILIDAD CON EXPLORER*/
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+   -ms-flex-align: center;
+  -ms-flex-pack: center;
+}

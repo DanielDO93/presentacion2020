@@ -14,6 +14,22 @@ import Tab from 'react-bootstrap/Tab'
 
 
 class Atencion extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+      progress1: true,
+      progress2: true,
+      progress3: true,
+      progress4: true,
+      progress5: true,
+      progress6: true,
+    };
+  }
+
+
+
   render() {
     return (
       <div className="section">
@@ -56,15 +72,40 @@ class Atencion extends Component {
                     <Col sm={12}>
                       <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                         <Tab.Pane eventKey="1">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
+                          <Row >
+                            <Col xs="12" className="centrado-fila" >
+                            <div
+                                className=""
+                                  style={{ cursor: "pointer", width: "200px" }}
+                                  onMouseEnter={() => this.setState({ progress1: false })}
+                                  onMouseLeave={() => this.setState({ progress1: true })}>
+                                  {
+                                    this.state.progress1 ? (
+                                      <div className="text-white" >
+                                        <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                        <Progress value={90} color="green" />
+                                      </div>
+                                    ) : (
+                                        <div className="text-white" >
+                                          <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                          <Progress value={100} text="N/A" color="red" />
+                                        </div>
+                                      )
+                                  }
+                                </div>
+                            </Col>
+
+                            {/* <Col xs="12" sm="6" md="6" >
+
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress  value={90} color="green" />
+                              <Progress value={90} color="green" />
+
+
                             </Col>
                             <Col xs="12" sm="6" md="6">
                               <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
                               <Progress value={0} text="N/A" color="green" />
-                            </Col>
+                            </Col> */}
                           </Row>
                         </Tab.Pane>
                         <Tab.Pane eventKey="2">

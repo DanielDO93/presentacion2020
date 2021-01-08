@@ -14,10 +14,22 @@ import Tab from 'react-bootstrap/Tab'
 
 
 class Comercial extends Component {
- 
+  constructor(props) {
+    super(props);
 
-  render() { 
-  
+    this.state = {
+
+      progress1: true,
+      progress2: true,
+      progress3: true,
+      progress4: true,
+      progress5: true,
+      progress6: true,
+    };
+  }
+
+  render() {
+
     return (
       <div className="section">
 
@@ -31,85 +43,131 @@ class Comercial extends Component {
                   <h2><b className="top">KPI´s: </b></h2>
                 </Col>
               </Row>
-            
-                <Tab.Container id="left-tabs-example" defaultActiveKey="1" >
-                  <Row>
-                    <Col sm={12}>
-                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)", width:"100%", }}>
-                        <Nav.Item>
-                          <Nav.Link eventKey="1" className="text-white">Contratos  </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="2" className="text-white">Estaciones nuevas  </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="3" className="text-white"> Leads globales </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="4" className="text-white"> Leads perfilados </Nav.Link>
-                        </Nav.Item>
-                      </Nav>
-                    </Col>
-                    <Col sm={12}>
-                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)",width:"100%" }}>
-                        <Tab.Pane eventKey="1" style={{width:"100%"}}>
-                          <Row style={{border:"solid 1px"}}>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={90} color="green" />
-                            </Col>
-                           
-                            <Col xs="12" sm="6" md="6">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={80} color="red" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="2">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={450} text="450" color="green" />
-                            </Col>
-                          
-                            <Col xs="12" sm="6" md="6">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={43} text="43" color="red" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="3">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={420} text="420" color="green" />
-                            </Col>
-                           
-                            <Col xs="12" sm="6" md="6">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={39} text="39" color="red" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="4">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                              <Progress value={240} text="240" color="green" />
-                            </Col>
-                           
-                            <Col xs="12" sm="6" md="6">
-                              <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                              <Progress value={23} text="23" color="red" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
 
-                      </Tab.Content>
-                    </Col>
-                  </Row>
-                </Tab.Container>
-           
+              <Tab.Container id="left-tabs-example" defaultActiveKey="1" >
+                <Row>
+                  <Col sm={12}>
+                    <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)", width: "100%", }}>
+                      <Nav.Item>
+                        <Nav.Link eventKey="1" className="text-white">Contratos  </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="2" className="text-white">Estaciones nuevas  </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="3" className="text-white"> Leads globales </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="4" className="text-white"> Leads perfilados </Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                  </Col>
+                  <Col sm={12}>
+                    <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)", width: "100%" }}>
+                      <Tab.Pane eventKey="1" style={{ width: "100%" }}>
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress1: false })}
+                              onMouseLeave={() => this.setState({ progress1: true })}>
+                              {
+                                this.state.progress1 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={90} color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={80} color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="2">
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress2: false })}
+                              onMouseLeave={() => this.setState({ progress2: true })}>
+                              {
+                                this.state.progress2 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={450} text="450" color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={0.43} text="43" color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="3">
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress3: false })}
+                              onMouseLeave={() => this.setState({ progress3: true })}>
+                              {
+                                this.state.progress3 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={420} text="420" color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={0.39} text="39" color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="4">
+                        <Row >
+                          <Col xs="12" className="centrado-fila" >
+                            <div
+                              className=""
+                              style={{ cursor: "pointer", width: "200px" }}
+                              onMouseEnter={() => this.setState({ progress4: false })}
+                              onMouseLeave={() => this.setState({ progress4: true })}>
+                              {
+                                this.state.progress4 ? (
+                                  <div className="text-white" >
+                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
+                                    <Progress value={240} text="240" color="green" />
+                                  </div>
+                                ) : (
+                                    <div className="text-white" >
+                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
+                                      <Progress value={0.23} text="23" color="red" />
+                                    </div>
+                                  )
+                              }
+                            </div>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Col>
+                </Row>
+              </Tab.Container>
             </Container>
           </div>
         </div>
@@ -117,111 +175,101 @@ class Comercial extends Component {
 
         <div className="slide">
           <div className="content">
-
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top">Cuantitativos: </b></h2>
                 </Col>
               </Row>
-             
-                <Tab.Container id="left-tabs-example" defaultActiveKey="dos">
-                  <Row>
-                    <Col sm={12}>
-                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                       
-                        <Nav.Item>
-                          <Nav.Link eventKey="dos" className="text-white">Estratégico</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="cinco" className="text-white">Estratégico</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="uno" className="text-white">De resultado</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="seis" className="text-white">De resultado</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="siete" className="text-white">De resultado</Nav.Link>
-                        </Nav.Item>
-                      </Nav>
-                    </Col>
-                    <Col sm={12}>
-                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Tab.Pane eventKey="uno">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Contratos firmados en tiempo y forma </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
+              <Tab.Container id="left-tabs-example" defaultActiveKey="uno">
+                <Row>
+                  <Col sm={12}>
+                    <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Nav.Item>
+                        <Nav.Link eventKey="uno" className="text-white">Estratégico</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="dos" className="text-white">De resultado</Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                  </Col>
+                  <Col sm={12}>
+                    <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Tab.Pane eventKey="uno">
+                        <Row className="pb-3">
+                          <Col xs="6" className="text-left">
+                            <h2 ><b>Objetivo</b></h2>
+                          </Col>
+                          <Col xs="6" className="">
+                            <h2 ><b>Objetivo</b></h2>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Actualización de precios y condiciones comerciales </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
                               <Progress value={80} color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="dos">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Actualización de precios y condiciones comerciales </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
-                              <Progress value={80} color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                      
-                       
-                        <Tab.Pane eventKey="cinco">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Estaciones nuevas </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Estaciones nuevas</h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
                               <Progress value={407} text="407" color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="seis">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Leads globales </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
+                            </div>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="dos">
+                        <Row className="pb-3">
+                          <Col xs="6" className="text-left">
+                            <h2 ><b>Objetivo</b></h2>
+                          </Col>
+                          <Col xs="6" className="">
+                            <h2 ><b>Objetivo</b></h2>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Contratos firmados en tiempo y forma </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
+                              <Progress value={80} color="green" />
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Leads globales </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
                               <Progress value={420} text="420" color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                        <Tab.Pane eventKey="siete">
-                          <Row>
-                            <Col xs="12" sm="6" md="6" >
-                              <h2><b>Objetivo</b></h2>
-                              <h1>Leads Perfilados </h1>
-                            </Col>
-                            <Col xs="12" sm="6" md="6">
-                              <h2> <b>Objetivo</b></h2>
-
+                            </div>
+                          </Col>
+                        </Row>
+                        <Row className="pb-3">
+                          <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
+                            <h1 className="pl-3 ">Leads Perfilados </h1>
+                          </Col>
+                          <Col xs="12" sm="6" md="6" className="centrado-fila">
+                            <div style={{ width: "90px" }}>
                               <Progress value={440} text="440" color="green" />
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                      </Tab.Content>
-                    </Col>
-                  </Row>
-                </Tab.Container>
-              
+                            </div>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Col>
+                </Row>
+              </Tab.Container>
             </Container>
           </div>
         </div>
@@ -230,58 +278,48 @@ class Comercial extends Component {
             <Container>
               <Row>
                 <Col xs="12">
-                <h2><b>Objetivos anuales 2021</b></h2>
+                  <h2><b>Objetivos anuales 2021</b></h2>
                   <h2><b className=" top ">Cualitativos: </b></h2>
                 </Col>
               </Row>
-              
-                <Tab.Container id="left-tabs-example" defaultActiveKey="nueve">
-                  <Row>
-                    <Col sm={12}>
-                      <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Nav.Item>
-                          <Nav.Link eventKey="nueve" className="text-white">Estratégico</Nav.Link>
-                        </Nav.Item>
-                      
-                        <Nav.Item>
-                          <Nav.Link eventKey="trece" className="text-white">De resultado</Nav.Link>
-                        </Nav.Item>
-                      </Nav>
-                    </Col>
-                    <Col sm={12}>
-                      <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                        <Tab.Pane eventKey="nueve">
-                          <Row>
-                            <Col xs="12"  >
-                              <h2 style={{textAlign:"left",}}><b>Objetivos</b></h2>
-                              <ul style={{textAlign:"left"}}>
-                                <li style={{fontSize:"2.5rem"}}>Estrategia de marketing digital global (interna / clientes) </li>
-                                <li style={{fontSize:"2.5rem"}}>Rediseño de página CCS y presentación comercial </li>
-                              </ul>
-                              
-                            </Col>
-                            <Col xs="12" className="text-left" >
-                              
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                       
-                      
-                        <Tab.Pane eventKey="trece">
-                          <Row>
-                            <Col xs="12"  >
-                            <h2 style={{textAlign:"left"}}><b>Objetivos</b></h2>
-                              <ul style={{textAlign:"left"}}>
-                                <li style={{fontSize:"2.5rem"}}>Red comercial y alianzas</li>
-                              </ul>
-                            </Col>
-                          </Row>
-                        </Tab.Pane>
-                      </Tab.Content>
-                    </Col>
-                  </Row>
-                </Tab.Container>
-            
+              <Tab.Container id="left-tabs-example" defaultActiveKey="nueve">
+                <Row>
+                  <Col sm={12}>
+                    <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Nav.Item>
+                        <Nav.Link eventKey="nueve" className="text-white">Estratégico</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="trece" className="text-white">De resultado</Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                  </Col>
+                  <Col sm={12}>
+                    <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
+                      <Tab.Pane eventKey="nueve">
+                        <Row>
+                          <Col xs="12"  >
+                            <h2><b>Objetivo</b></h2>
+                            <h1>Estrategia de marketing digital global (interna / clientes) </h1>
+                            <h1>Rediseño de página CCS y presentación comercial</h1>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+
+
+                      <Tab.Pane eventKey="trece">
+                      <Row>
+                          <Col xs="12"  >
+                            <h2><b>Objetivo</b></h2>
+                            <h1>Red comercial y alianzas</h1>
+                          </Col>
+                        </Row>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Col>
+                </Row>
+              </Tab.Container>
+
             </Container>
           </div>
         </div>

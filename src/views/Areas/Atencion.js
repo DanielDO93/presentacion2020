@@ -287,9 +287,9 @@ class Atencion extends Component {
                         <Col xs="12" sm="6" md="6" className="  centrado-fila" >
                           {/* <h2> <b>Objetivo</b></h2> */}
                           <div style={{ width: "90px" }}>
-                          <Progress value={80} color="green" />
+                            <Progress value={80} color="green" />
                           </div>
-                        
+
                         </Col>
                       </Row>
                       <Row>
@@ -300,44 +300,52 @@ class Atencion extends Component {
                         <Col xs="12" sm="6" md="6" className="pt-3 pb-3 centrado-fila">
                           {/* <h2> <b>Objetivo</b></h2> */}
                           <div style={{ width: "90px" }}>
-                          <Progress value={90} color="green" />
+                            <Progress value={90} color="green" />
                           </div>
                         </Col>
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="dos">
-                      <Row>
-                        <Col xs="12" sm="6" md="6" className="text-left">
-                          <h2><b>Objetivo</b></h2>
-                          <h1>Presentar Propuestas de valor agregado </h1>
+                      <Row className="pb-3">
+                        <Col xs="6" className="text-left">
+                          <h2 ><b>Objetivo</b></h2>
                         </Col>
-                        <Col xs="12" sm="6" md="6">
-                          <h2> <b>Objetivo</b></h2>
-
-                          <Progress value={100} color="green" />
+                        <Col xs="6" className="">
+                          <h2 ><b>Objetivo</b></h2>
                         </Col>
                       </Row>
                       <Row>
-                        <Col xs="12" sm="6" md="6" className="text-left">
+                        <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center" >
                           {/* <h2><b>Objetivo</b></h2> */}
-                          { }<h1>Cobranza temprana </h1>
+                          <h1 className="pl-3">Presentar Propuestas de valor agregado </h1>
                         </Col>
-                        <Col xs="12" sm="6" md="6">
+                        <Col xs="12" sm="6" md="6" className="pt-3 pb-3 centrado-fila">
                           {/* <h2> <b>Objetivo</b></h2> */}
-
-                          <Progress value={90} color="green" />
+                          <div style={{ width: "90px" }}>
+                            <Progress value={100} color="green" />
+                          </div>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center" >
+                          {/* <h2><b>Objetivo</b></h2> */}
+                          <h1 className="pl-3">Cobranza temprana </h1>
+                        </Col>
+                        <Col xs="12" sm="6" md="6" className="pt-3 pb-3 centrado-fila">
+                          {/* <h2> <b>Objetivo</b></h2> */}
+                          <div style={{ width: "90px" }}>
+                            <Progress value={90} color="green" />
+                          </div>
                         </Col>
                       </Row>
                     </Tab.Pane>
-
                   </Tab.Content>
                 </Col>
-
               </Tab.Container>
-
             </Container>
           </div>
         </div>
+
         <div className="slide">
           <div className="content">
             <Container>
@@ -379,15 +387,14 @@ class Atencion extends Component {
                           </Col>
                         </Row>
                       </Tab.Pane>
-
                     </Tab.Content>
                   </Col>
                 </Row>
               </Tab.Container>
-
             </Container>
           </div>
         </div>
+
         <div className="slide">
           <div className="content">
             <img

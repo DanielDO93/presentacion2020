@@ -273,7 +273,7 @@ class Atencion extends Component {
                 <Col sm={12}>
                   <Tab.Content style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
                     <Tab.Pane eventKey="uno">
-                      <Row>
+                      <Row className="pb-3">
                         <Col xs="6" className="text-left">
                           <h2 ><b>Objetivo</b></h2>
                         </Col>
@@ -281,12 +281,12 @@ class Atencion extends Component {
                           <h2 ><b>Objetivo</b></h2>
                         </Col>
                       </Row>
-                      <Row>
+                      <Row className="pb-3">
                         <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
                           <h1 className="pl-3 ">Retención de clientes </h1>
                         </Col>
                         <Col xs="12" sm="6" md="6" className="centrado-fila">
-                          <div style={{ width: "100px" }}>
+                          <div style={{ width: "90px" }}>
                             <Progress value={100} color="green" />
                           </div>
                         </Col>
@@ -296,9 +296,9 @@ class Atencion extends Component {
                           {/* <h2><b>Objetivo</b></h2> */}
                           <h1 className="pl-3">Crecimiento de las cuentas </h1>
                         </Col>
-                        <Col xs="12" sm="6" md="6" className="pt-3 pb-3 centrado-fila" >
+                        <Col xs="12" sm="6" md="6" className="  centrado-fila" >
                           {/* <h2> <b>Objetivo</b></h2> */}
-                          <div style={{ width: "100px" }}>
+                          <div style={{ width: "90px" }}>
                           <Progress value={80} color="green" />
                           </div>
                         
@@ -311,7 +311,7 @@ class Atencion extends Component {
                         </Col>
                         <Col xs="12" sm="6" md="6" className="pt-3 pb-3 centrado-fila">
                           {/* <h2> <b>Objetivo</b></h2> */}
-                          <div style={{ width: "100px" }}>
+                          <div style={{ width: "90px" }}>
                           <Progress value={90} color="green" />
                           </div>
                         </Col>

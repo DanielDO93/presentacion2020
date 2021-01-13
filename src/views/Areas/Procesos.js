@@ -166,12 +166,12 @@ class Comercial extends Component {
                                 this.state.progress5 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={2} color="green" />
+                                    <Progress value={100} text="2" color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={0} color="red" />
+                                      <Progress value={0} text="0" color="red" />
                                     </div>
                                   )
                               }

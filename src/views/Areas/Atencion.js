@@ -87,7 +87,7 @@ class Atencion extends Component {
                                   ) : (
                                       <div className="text-white" >
                                         <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                        <Progress value={100} text="N/A" color="red" />
+                                        <Progress value={60}  color="red" />
                                       </div>
                                     )
                                 }
@@ -133,12 +133,12 @@ class Atencion extends Component {
                                   this.state.progress3 ? (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                      <Progress value={100} text="Pendiente" color="red" />
+                                      <Progress value={100}  color="green" />
                                     </div>
                                   ) : (
                                       <div className="text-white" >
                                         <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                        <Progress value={100} text="Pendiente" color="red" />
+                                        <Progress value={83} text=" " color="red" />
                                       </div>
                                     )
                                 }
@@ -164,7 +164,7 @@ class Atencion extends Component {
                                   ) : (
                                       <div className="text-white" >
                                         <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                        <Progress value={65} color="red" />
+                                        <Progress value={62} color="red" />
                                       </div>
                                     )
                                 }
@@ -185,12 +185,12 @@ class Atencion extends Component {
                                   this.state.progress4 ? (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                      <Progress value={100} text="Pendiente" color="red" />
+                                      <Progress value={0}  color="red" />
                                     </div>
                                   ) : (
                                       <div className="text-white" >
                                         <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                        <Progress value={100} text="Pendiente" color="red" />
+                                        <Progress value={0} text=" " color="red" />
                                       </div>
                                     )
                                 }

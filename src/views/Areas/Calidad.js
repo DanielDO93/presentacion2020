@@ -80,7 +80,7 @@ class Calidad extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={79} color="red" />
+                                      <Progress value={80} color="green" />
                                     </div>
                                   )
                               }
@@ -155,7 +155,7 @@ class Calidad extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={95} color="green" />
+                                      <Progress value={96} color="green" />
                                     </div>
                                   )
                               }
@@ -180,7 +180,7 @@ class Calidad extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={93.5} color="green" />
+                                      <Progress value={94} color="green" />
                                     </div>
                                   )
                               }
@@ -205,7 +205,7 @@ class Calidad extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={8} text="¨+-8¨" color="red" />
+                                      <Progress value={5} text="¨+-5¨" color="red" />
                                     </div>
                                   )
                               }
@@ -230,7 +230,7 @@ class Calidad extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={48} color="red" />
+                                      <Progress value={49} color="red" />
                                     </div>
                                   )
                               }

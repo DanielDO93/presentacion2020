@@ -69,7 +69,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={86.5} color="red" />
+                                      <Progress value={87} color="red" />
                                     </div>
                                   )
                               }

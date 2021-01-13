@@ -138,7 +138,7 @@ class Atencion extends Component {
                                   ) : (
                                       <div className="text-white" >
                                         <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                        <Progress value={83} text=" " color="red" />
+                                        <Progress value={83}  color="red" />
                                       </div>
                                     )
                                 }

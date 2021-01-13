@@ -62,7 +62,7 @@ class Comercial extends Component {
                                 this.state.progress1 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={46} color="green" />
+                                    <Progress value={100} color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
@@ -87,12 +87,12 @@ class Comercial extends Component {
                                 this.state.progress2 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={12} color="green" />
+                                    <Progress value={100} text="12" color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={25} color="green" />
+                                      <Progress value={0.4} text="4" color="red" />
                                     </div>
                                   )
                               }

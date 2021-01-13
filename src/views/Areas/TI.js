@@ -232,7 +232,7 @@ class TI extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={0.46} text="46" color="red" />
+                                      <Progress value={95} text="46" color="red" />
                                     </div>
                                   )
                               }

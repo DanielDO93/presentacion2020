@@ -82,7 +82,7 @@ class TI extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={86} color="red" />
+                                      <Progress value={89} color="red" />
                                     </div>
                                   )
                               }
@@ -107,7 +107,7 @@ class TI extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={53} color="red" />
+                                      <Progress value={39} color="red" />
                                     </div>
                                   )
                               }
@@ -127,12 +127,12 @@ class TI extends Component {
                                 this.state.progress3 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={50} color="green" />
+                                    <Progress value={100} color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={66} color="green" />
+                                      <Progress value={88} color="green" />
                                     </div>
                                   )
                               }
@@ -232,7 +232,7 @@ class TI extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={84} color="red" />
+                                      <Progress value={46} color="red" />
                                     </div>
                                   )
                               }

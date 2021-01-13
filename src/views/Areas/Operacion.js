@@ -112,7 +112,7 @@ class Operacion extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={88} color="red" />
+                                      <Progress value={85} color="red" />
                                     </div>
                                   )
                               }

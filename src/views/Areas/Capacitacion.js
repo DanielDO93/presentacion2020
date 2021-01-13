@@ -96,7 +96,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={90} color="green" />
+                                      <Progress value={93} color="green" />
                                     </div>
                                   )
                               }
@@ -121,7 +121,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={93} color="green" />
+                                      <Progress value={94} color="green" />
                                     </div>
                                   )
                               }
@@ -147,7 +147,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={89} color="red" />
+                                      <Progress value={91} color="green" />
                                     </div>
                                   )
                               }
@@ -172,7 +172,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={80} color="red" />
+                                      <Progress value={95} color="red" />
                                     </div>
                                   )
                               }
@@ -197,7 +197,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={17} color="red" />
+                                      <Progress value={33} color="red" />
                                     </div>
                                   )
                               }
@@ -222,7 +222,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={4} color="red" />
+                                      <Progress value={7} color="red" />
                                     </div>
                                   )
                               }
@@ -247,7 +247,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={43} color="red" />
+                                      <Progress value={57} color="green" />
                                     </div>
                                   )
                               }
@@ -272,7 +272,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={31} color="red" />
+                                      <Progress value={43} color="red" />
                                     </div>
                                   )
                               }
@@ -292,12 +292,12 @@ class Comercial extends Component {
                                 this.state.progress9 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={100} color="green" />
+                                    <Progress value={100} text="Si" color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={100} color="green" />
+                                      <Progress value={100} text="Si" color="green" />
                                     </div>
                                   )
                               }
@@ -322,7 +322,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={90} color="green" />
+                                      <Progress value={80} color="green" />
                                     </div>
                                   )
                               }
@@ -347,7 +347,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={25} color="red" />
+                                      <Progress value={50} color="red" />
                                     </div>
                                   )
                               }

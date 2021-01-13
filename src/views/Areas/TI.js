@@ -132,7 +132,7 @@ class TI extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={88} color="green" />
+                                      <Progress value={88} color="red" />
                                     </div>
                                   )
                               }
@@ -227,12 +227,12 @@ class TI extends Component {
                                 this.state.progress7 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={50} color="green" />
+                                    <Progress value={100} text="50" color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={46} color="red" />
+                                      <Progress value={0.46} text="46" color="red" />
                                     </div>
                                   )
                               }

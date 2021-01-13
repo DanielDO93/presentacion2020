@@ -116,7 +116,7 @@ class Comercial extends Component {
                                 this.state.progress3 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={0} color="green" />
+                                    <Progress value={100} color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >

@@ -41,12 +41,8 @@ class Operacion extends Component {
                       <Nav.Item>
                         <Nav.Link eventKey="1" className="text-white">Adherencia a dimensionamiento  </Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="2" className="text-white">Retención  </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="3" className="text-white"> Pre-sentismo </Nav.Link>
-                      </Nav.Item>
+                     
+                    
                       <Nav.Item>
                         <Nav.Link eventKey="4" className="text-white"> Cobertura de Horas </Nav.Link>
                       </Nav.Item>
@@ -54,17 +50,15 @@ class Operacion extends Component {
                         <Nav.Link eventKey="5" className="text-white"> Retención de Supervisores</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="6" className="text-white"> Programa superivsores VIP </Nav.Link>
+                        <Nav.Link eventKey="6" className="text-white"> Programa supervisores VIP </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="7" className="text-white"> Cobertura de Horas </Nav.Link>
+                        <Nav.Link eventKey="7" className="text-white"> Cobertura de Horas VIP </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="8" className="text-white"> Conexión de agentes VIP </Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="9" className="text-white"> Crecimiento de 20% en 80% de campañas </Nav.Link>
-                      </Nav.Item>
+                     
 
                     </Nav>
                   </Col>
@@ -95,56 +89,8 @@ class Operacion extends Component {
                           </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="2">
-                        <Row >
-                          <Col xs="12" className="centrado-fila" >
-                            <div
-                              className=""
-                              style={{ cursor: "pointer", width: "200px" }}
-                              onMouseEnter={() => this.setState({ progress2: false })}
-                              onMouseLeave={() => this.setState({ progress2: true })}>
-                              {
-                                this.state.progress2 ? (
-                                  <div className="text-white" >
-                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={90} color="green" />
-                                  </div>
-                                ) : (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={85} color="red" />
-                                    </div>
-                                  )
-                              }
-                            </div>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="3">
-                        <Row >
-                          <Col xs="12" className="centrado-fila" >
-                            <div
-                              className=""
-                              style={{ cursor: "pointer", width: "200px" }}
-                              onMouseEnter={() => this.setState({ progress3: false })}
-                              onMouseLeave={() => this.setState({ progress3: true })}>
-                              {
-                                this.state.progress3 ? (
-                                  <div className="text-white" >
-                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={90} color="green" />
-                                  </div>
-                                ) : (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={93} color="green" />
-                                    </div>
-                                  )
-                              }
-                            </div>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
+                    
+                     
                       <Tab.Pane eventKey="4">
                         <Row >
                           <Col xs="12" className="centrado-fila" >
@@ -207,12 +153,12 @@ class Operacion extends Component {
                                 this.state.progress6 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={8} color="green" />
+                                    <Progress value={80} text="8" color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={38} color="green" />
+                                      <Progress value={30} text="3" color="red" />
                                     </div>
                                   )
                               }
@@ -270,31 +216,6 @@ class Operacion extends Component {
                           </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="9">
-                        <Row >
-                          <Col xs="12" className="centrado-fila" >
-                            <div
-                              className=""
-                              style={{ cursor: "pointer", width: "200px" }}
-                              onMouseEnter={() => this.setState({ progress9: false })}
-                              onMouseLeave={() => this.setState({ progress9: true })}>
-                              {
-                                this.state.progress9 ? (
-                                  <div className="text-white" >
-                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={80} color="green" />
-                                  </div>
-                                ) : (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={15} color="red" />
-                                    </div>
-                                  )
-                              }
-                            </div>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
                     </Tab.Content>
                   </Col>
                 </Row>
@@ -330,7 +251,7 @@ class Operacion extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -348,7 +269,7 @@ class Operacion extends Component {
                         </Row>
                         <Row className="pb-3">
                           <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
-                            <h1 className="pl-3 ">Penalizaciones por contato </h1>
+                            <h1 className="pl-3 ">Penalizaciones por contrato </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
                             <div style={{ width: "90px" }}>
@@ -360,7 +281,7 @@ class Operacion extends Component {
                       <Tab.Pane eventKey="dos">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>

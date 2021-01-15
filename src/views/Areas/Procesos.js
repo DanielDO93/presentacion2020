@@ -215,7 +215,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -233,13 +233,21 @@ class Comercial extends Component {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="dos">
+                      <Row className="pb-3">
+                          <Col xs="6" className="text-left">
+                            <h2 ><b></b></h2>
+                          </Col>
+                          <Col xs="6" className="">
+                            <h2 ><b>Objetivo</b></h2>
+                          </Col>
+                        </Row>
                         <Row className="pb-3">
                           <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
                             <h1 className="pl-3 ">SLA de actualización vs. control de cambios </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
                             <div style={{ width: "90px" }}>
-                              <Progress value={24} color="green" />
+                              <Progress value={100} text="< 24 hrs" color="green" />
                             </div>
                           </Col>
                         </Row>
@@ -249,7 +257,7 @@ class Comercial extends Component {
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
                             <div style={{ width: "90px" }}>
-                              <Progress value={24} color="green" />
+                              <Progress value={100} text="< 24 hrs" color="green" />
                             </div>
                           </Col>
                         </Row>
@@ -292,7 +300,7 @@ class Comercial extends Component {
                           <Col xs="12"  >
                             <h2><b>Objetivo</b></h2>
                             <h1>Implementación de PCI </h1>
-                            <h1>Auditorías Internas para ISO </h1>
+                            <h1>Renovación de Certificación ISO </h1>
                           </Col>
                         </Row>
                       </Tab.Pane>

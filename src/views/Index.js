@@ -105,7 +105,7 @@ class Index extends Component {
 
                           >
                             <h3
-                              style={{ paddingTop: "18px",color:"black" }}
+                              style={{ paddingTop: "18px",color:"" }}
                             ><b>Comercial</b></h3>
                           </CardHeader>
                         </Card>
@@ -123,7 +123,7 @@ class Index extends Component {
 
                           >
                             <h3
-                              style={{ paddingTop: "5px",color:"black" }}
+                              style={{ paddingTop: "5px",color:"" }}
                             ><b>Atención a Clientes</b></h3>
                           </CardHeader>
                         </Card>
@@ -138,7 +138,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px", color:"black" }}><b>Implementación</b></h3>
+                            <h3 style={{ paddingTop: "18px", color:"" }}><b>Implementación</b></h3>
                           </CardHeader>
 
                         </Card>
@@ -153,7 +153,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px",color:"black" }}><b>RRHH</b></h3>
+                            <h3 style={{ paddingTop: "18px",color:"" }}><b>RRHH</b></h3>
                           </CardHeader>
 
                         </Card>
@@ -169,7 +169,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px",color:"black" }}><b>Capacitación</b></h3>
+                            <h3 style={{ paddingTop: "18px",color:"" }}><b>Capacitación</b></h3>
                           </CardHeader>
                         </Card>
                       </Col>
@@ -183,7 +183,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px",color:"black" }}><b>Comunicación</b></h3>
+                            <h3 style={{ paddingTop: "18px",color:"" }}><b>Comunicación</b></h3>
                           </CardHeader>
                         </Card>
                       </Col>
@@ -199,7 +199,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px", color:"black" }}><b>Operación</b></h3>
+                            <h3 style={{ paddingTop: "18px", color:"" }}><b>Operación</b></h3>
                           </CardHeader>
                         </Card>
                       </Col>
@@ -213,7 +213,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px", color:"black" }}><b>TI</b></h3>
+                            <h3 style={{ paddingTop: "18px", color:"" }}><b>TI</b></h3>
                           </CardHeader>
                         </Card>
                       </Col>
@@ -227,7 +227,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px", color:"black" }}><b>Command Center</b></h3>
+                            <h3 style={{ paddingTop: "18px", color:"" }}><b>Command Center</b></h3>
                           </CardHeader>
                         </Card>
                       </Col>
@@ -241,7 +241,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px", color:"black" }}><b>Calidad</b></h3>
+                            <h3 style={{ paddingTop: "18px", color:"" }}><b>Calidad</b></h3>
                           </CardHeader>
                         </Card>
                       </Col>
@@ -255,7 +255,7 @@ class Index extends Component {
                             style={{ backgroundColor: "rgba(0,0,0,0.0)", cursor: "pointer", height: "82px" }}
                             className="zoom"
                           >
-                            <h3 style={{ paddingTop: "18px", color:"black" }}><b>Procesos</b></h3>
+                            <h3 style={{ paddingTop: "18px", color:"" }}><b>Procesos</b></h3>
                           </CardHeader>
 
                         </Card>

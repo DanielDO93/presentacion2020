@@ -105,7 +105,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={0.43} text="43" color="red" />
+                                      <Progress value={9.6} text="43"  color="red" />
                                     </div>
                                   )
                               }
@@ -130,7 +130,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={0.41} text="41" color="red" />
+                                      <Progress value={9.3} text="41" color="red" />
                                     </div>
                                   )
                               }
@@ -155,7 +155,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={0.24} text="24" color="red" />
+                                      <Progress value={9.6} text="24" color="red" />
                                     </div>
                                   )
                               }
@@ -198,7 +198,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b>{ }</b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -210,7 +210,7 @@ class Comercial extends Component {
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
                             <div style={{ width: "90px" }}>
-                              <Progress value={80} color="green" />
+                              <Progress value={100} color="green" />
                             </div>
                           </Col>
                         </Row>
@@ -228,7 +228,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="dos">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -260,7 +260,7 @@ class Comercial extends Component {
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
                             <div style={{ width: "90px" }}>
-                              <Progress value={440} text="440" color="green" />
+                              <Progress value={100} text="240" color="green" />
                             </div>
                           </Col>
                         </Row>

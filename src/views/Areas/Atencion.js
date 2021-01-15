@@ -55,16 +55,13 @@ class Atencion extends Component {
                           <Nav.Link eventKey="2" className="text-white">Células de trabajo  </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="3" className="text-white"> Solución Multicanal </Nav.Link>
+                          <Nav.Link eventKey="3" className="text-white"> Solución Omnicanal </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                           <Nav.Link eventKey="4" className="text-white"> Cobranza temprana </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link eventKey="5" className="text-white"> Quejas de cliente </Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="6" className="text-white"> Crecimiento de cuentas </Nav.Link>
+                          <Nav.Link eventKey="6" className="text-white"> Crecimiento de 20% en 80% de campañas </Nav.Link>
                         </Nav.Item>
                       </Nav>
                     </Col>
@@ -173,32 +170,7 @@ class Atencion extends Component {
                           </Row>
 
                         </Tab.Pane>
-                        <Tab.Pane eventKey="5">
-                          <Row >
-                            <Col xs="12" className="centrado-fila" >
-                              <div
-                                className=""
-                                style={{ cursor: "pointer", width: "200px" }}
-                                onMouseEnter={() => this.setState({ progress4: false })}
-                                onMouseLeave={() => this.setState({ progress4: true })}>
-                                {
-                                  this.state.progress4 ? (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                      <Progress value={0}  color="red" />
-                                    </div>
-                                  ) : (
-                                      <div className="text-white" >
-                                        <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                        <Progress value={0} text=" " color="red" />
-                                      </div>
-                                    )
-                                }
-                              </div>
-                            </Col>
-                          </Row>
-
-                        </Tab.Pane>
+                       
                         <Tab.Pane eventKey="6">
                           <Row >
                             <Col xs="12" className="centrado-fila" >
@@ -262,7 +234,7 @@ class Atencion extends Component {
                     <Tab.Pane eventKey="uno">
                       <Row className="pb-3">
                         <Col xs="6" className="text-left">
-                          <h2 ><b>Objetivo</b></h2>
+                          <h2 ><b></b></h2>
                         </Col>
                         <Col xs="6" className="">
                           <h2 ><b>Objetivo</b></h2>
@@ -281,12 +253,12 @@ class Atencion extends Component {
                       <Row>
                         <Col xs="12" sm="6" md="6" className="text-left d-flex align-items-center">
                           {/* <h2><b>Objetivo</b></h2> */}
-                          <h1 className="pl-3">Crecimiento de las cuentas </h1>
+                          <h1 className="pl-3">Crecimiento de las cuentas  </h1>
                         </Col>
                         <Col xs="12" sm="6" md="6" className="  centrado-fila" >
                           {/* <h2> <b>Objetivo</b></h2> */}
                           <div style={{ width: "90px" }}>
-                            <Progress value={80} color="green" />
+                            <Progress value={80} text="80%-20%" color="green" />
                           </div>
 
                         </Col>
@@ -307,7 +279,7 @@ class Atencion extends Component {
                     <Tab.Pane eventKey="dos">
                       <Row className="pb-3">
                         <Col xs="6" className="text-left">
-                          <h2 ><b>Objetivo</b></h2>
+                          <h2 ><b></b></h2>
                         </Col>
                         <Col xs="6" className="">
                           <h2 ><b>Objetivo</b></h2>

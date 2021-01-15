@@ -186,7 +186,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -206,7 +206,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="dos">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>

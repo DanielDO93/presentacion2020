@@ -55,9 +55,6 @@ class TI extends Component {
                         <Nav.Link eventKey="5" className="text-white"> Aplicativo CCS 2.0</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="6" className="text-white"> Alertas en Aplicación *en espera por migración </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
                         <Nav.Link eventKey="7" className="text-white"> Módulo E-Learning </Nav.Link>
                       </Nav.Item>
 
@@ -190,31 +187,6 @@ class TI extends Component {
                           </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="6">
-                        <Row >
-                          <Col xs="12" className="centrado-fila" >
-                            <div
-                              className=""
-                              style={{ cursor: "pointer", width: "200px" }}
-                              onMouseEnter={() => this.setState({ progress6: false })}
-                              onMouseLeave={() => this.setState({ progress6: true })}>
-                              {
-                                this.state.progress6 ? (
-                                  <div className="text-white" >
-                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={100} color="green" />
-                                  </div>
-                                ) : (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={0} color="red" />
-                                    </div>
-                                  )
-                              }
-                            </div>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
                       <Tab.Pane eventKey="7">
                         <Row >
                           <Col xs="12" className="centrado-fila" >
@@ -275,7 +247,7 @@ class TI extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -306,7 +278,7 @@ class TI extends Component {
                       <Tab.Pane eventKey="dos">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>

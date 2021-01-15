@@ -45,7 +45,7 @@ class Comercial extends Component {
                         <Nav.Link eventKey="1" className="text-white">Retención en aula  </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="2" className="text-white">Retención en piso  </Nav.Link>
+                        <Nav.Link eventKey="2" className="text-white">Retención en operación  </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="3" className="text-white"> Certificar al personal </Nav.Link>
@@ -172,7 +172,7 @@ class Comercial extends Component {
                                 ) : (
                                     <div className="text-white" >
                                       <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={95} color="red" />
+                                      <Progress value={95} color="green" />
                                     </div>
                                   )
                               }
@@ -390,7 +390,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -420,7 +420,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="dos">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>

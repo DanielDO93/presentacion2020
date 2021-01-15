@@ -35,10 +35,7 @@ class Comercial extends Component {
                       <Nav.Item>
                         <Nav.Link eventKey="1" className="text-white">Cumplimiento Plan de trabajo</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="2" className="text-white">Retención</Nav.Link>
-                      </Nav.Item>
-
+                    
                     </Nav>
                   </Col>
                   <Col sm={12}>
@@ -55,32 +52,7 @@ class Comercial extends Component {
                                 this.state.progress1 ? (
                                   <div className="text-white" >
                                     <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={5} color="green" />
-                                  </div>
-                                ) : (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={0}  color="red" />
-                                    </div>
-                                  )
-                              }
-                            </div>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="2">
-                        <Row >
-                          <Col xs="12" className="centrado-fila" >
-                            <div
-                              className=""
-                              style={{ cursor: "pointer", width: "200px" }}
-                              onMouseEnter={() => this.setState({ progress2: false })}
-                              onMouseLeave={() => this.setState({ progress2: true })}>
-                              {
-                                this.state.progress2 ? (
-                                  <div className="text-white" >
-                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={5} color="green" />
+                                    <Progress value={90} color="green" />
                                   </div>
                                 ) : (
                                     <div className="text-white" >
@@ -126,7 +98,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="tres">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>

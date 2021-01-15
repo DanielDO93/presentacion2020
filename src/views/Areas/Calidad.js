@@ -52,12 +52,7 @@ class Calidad extends Component {
                       <Nav.Item>
                         <Nav.Link eventKey="5" className="text-white"> Nota de Calidad global</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="6" className="text-white"> Resultado de calibración </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="7" className="text-white"> Cumplimiento de Clínica de Calidad en plantilla </Nav.Link>
-                      </Nav.Item>
+                    
 
                     </Nav>
                   </Col>
@@ -188,56 +183,7 @@ class Calidad extends Component {
                           </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="6">
-                        <Row >
-                          <Col xs="12" className="centrado-fila" >
-                            <div
-                              className=""
-                              style={{ cursor: "pointer", width: "200px" }}
-                              onMouseEnter={() => this.setState({ progress6: false })}
-                              onMouseLeave={() => this.setState({ progress6: true })}>
-                              {
-                                this.state.progress6 ? (
-                                  <div className="text-white" >
-                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={10} text="¨+-10¨" color="green" />
-                                  </div>
-                                ) : (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={5} text="¨+-5¨" color="red" />
-                                    </div>
-                                  )
-                              }
-                            </div>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="7">
-                        <Row >
-                          <Col xs="12" className="centrado-fila" >
-                            <div
-                              className=""
-                              style={{ cursor: "pointer", width: "200px" }}
-                              onMouseEnter={() => this.setState({ progress7: false })}
-                              onMouseLeave={() => this.setState({ progress7: true })}>
-                              {
-                                this.state.progress7 ? (
-                                  <div className="text-white" >
-                                    <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Objetivo  </h2>
-                                    <Progress value={100} color="green" />
-                                  </div>
-                                ) : (
-                                    <div className="text-white" >
-                                      <h2 style={{ paddingTop: "23px", paddingBottom: "23px" }}>Real Anual</h2>
-                                      <Progress value={49} color="red" />
-                                    </div>
-                                  )
-                              }
-                            </div>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
+                     
                     </Tab.Content>
                   </Col>
                 </Row>
@@ -272,7 +218,7 @@ class Calidad extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -294,7 +240,7 @@ class Calidad extends Component {
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
                             <div style={{ width: "90px" }}>
-                              <Progress value={90} color="green" />
+                              <Progress value={95} color="green" />
                             </div>
                           </Col>
                         </Row>
@@ -302,7 +248,7 @@ class Calidad extends Component {
                       <Tab.Pane eventKey="dos">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -363,9 +309,7 @@ class Calidad extends Component {
                       <Nav.Item>
                         <Nav.Link eventKey="diez" className="text-white"> Estratégico</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="once" className="text-white"> Estratégico</Nav.Link>
-                      </Nav.Item>
+                     
                     </Nav>
                   </Col>
                   <Col sm={12}>
@@ -375,17 +319,11 @@ class Calidad extends Component {
                           <Col xs="12" >
                             <h2><b>Objetivo</b></h2>
                             <h1>Implementación de metodología Sprint </h1>
+                            <h1>Implementación de metodología CX (Customer Experience) </h1>
                           </Col>
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="once">
-                        <Row>
-                          <Col xs="12"  >
-                            <h2><b>Objetivo</b></h2>
-                            <h1>Implementación de metología CX </h1>
-                          </Col>
-                        </Row>
-                      </Tab.Pane>
+                     
 
                     </Tab.Content>
                   </Col>

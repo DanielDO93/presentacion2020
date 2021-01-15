@@ -32,16 +32,18 @@ class Comercial extends Component {
                   <h2><b className=" top">KPI´s: </b></h2>
                 </Col>
               </Row>
-              <Tab.Container id="left-tabs-example" defaultActiveKey="1">
+              <Tab.Container id="left-tabs-example" defaultActiveKey="2">
                 <Row>
                   <Col sm={12}>
                     <Nav variant="pills" className="" style={{ backgroundColor: "rgba(0,0,0,0.3)" }}>
-                      <Nav.Item>
-                        <Nav.Link eventKey="1" className="text-white">Reclutamiento QA  </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
+                    <Nav.Item>
                         <Nav.Link eventKey="2" className="text-white">Reclutamiento Cobertura  </Nav.Link>
                       </Nav.Item>
+                      <Nav.Item>
+                      
+                        <Nav.Link eventKey="1" className="text-white">Reclutamiento QA  </Nav.Link>
+                      </Nav.Item>
+                     
                       <Nav.Item>
                         <Nav.Link eventKey="3" className="text-white"> Personal mayor &#62; 40 </Nav.Link>
                       </Nav.Item>
@@ -272,7 +274,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="uno">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>
@@ -302,7 +304,7 @@ class Comercial extends Component {
                       <Tab.Pane eventKey="dos">
                         <Row className="pb-3">
                           <Col xs="6" className="text-left">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
                             <h2 ><b>Objetivo</b></h2>

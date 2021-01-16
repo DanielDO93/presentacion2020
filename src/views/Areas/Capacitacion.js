@@ -423,7 +423,7 @@ class Comercial extends Component {
                             <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h1 ><b>Objetivo</b></h1>
                           </Col>
                         </Row>
                         <Row className="pb-3">
@@ -431,7 +431,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Retención en aula  </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={91} color="green" />
                             </div>
                           </Col>
@@ -441,7 +441,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Retención en piso y home office  </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={91} color="green" />
                             </div>
                           </Col>
@@ -451,7 +451,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Cobertura de Habilidades Operativas agentes  </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={95} color="green" />
                             </div>
                           </Col>
@@ -461,7 +461,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Cobertura de Habilidades Operativas staff   </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={80} color="green" />
                             </div>
                           </Col>

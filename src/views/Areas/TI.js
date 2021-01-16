@@ -352,7 +352,7 @@ class TI extends Component {
                         <Row>
                           <Col xs="12" >
                             <h2><b>Objetivo</b></h2>
-                            <h1>Revisión de Bitácora de fallas y niveles de servicio Convertía </h1>
+                            <h1>Revisión de Bitácora de fallas y niveles de servicio Convertia </h1>
                             <h1>Revisión de Bitácora de fallas y niveles de servicio TKM </h1>
                           </Col>
                         </Row>

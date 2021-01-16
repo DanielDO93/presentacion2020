@@ -284,7 +284,7 @@ class Operacion extends Component {
                             <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h1 ><b>Objetivo</b></h1>
                           </Col>
                         </Row>
                         <Row className="pb-3">
@@ -292,7 +292,7 @@ class Operacion extends Component {
                             <h1 className="pl-3 ">Adherencia a dimensionamiento </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={98} color="green" />
                             </div>
                           </Col>
@@ -302,7 +302,7 @@ class Operacion extends Component {
                             <h1 className="pl-3 ">Retención de Supervisores </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={90} color="green" />
                             </div>
                           </Col>
@@ -312,7 +312,7 @@ class Operacion extends Component {
                             <h1 className="pl-3 ">Cobertura de Horas VIP </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={10} color="green" />
                             </div>
                           </Col>
@@ -322,7 +322,7 @@ class Operacion extends Component {
                             <h1 className="pl-3 ">Conexión de agentes VIP </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={95} color="green" />
                             </div>
                           </Col>

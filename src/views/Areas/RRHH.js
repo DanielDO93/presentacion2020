@@ -302,12 +302,12 @@ class Comercial extends Component {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="dos">
-                        <Row className="pb-3">
+                        <Row className="">
                           <Col xs="6" className="text-left">
                             <h2 ><b></b></h2>
                           </Col>
                           <Col xs="6" className="">
-                            <h2 ><b>Objetivo</b></h2>
+                            <h1 ><b>Objetivo</b></h1>
                           </Col>
                         </Row>
                         <Row className="pb-3">
@@ -315,7 +315,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Reclutamiento QA </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={95} color="green" />
                             </div>
                           </Col>
@@ -325,7 +325,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Adherencia de vacantes </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={100} color="green" />
                             </div>
                           </Col>
@@ -335,7 +335,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Retención </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={90} color="green" />
                             </div>
                           </Col>
@@ -345,7 +345,7 @@ class Comercial extends Component {
                             <h1 className="pl-3 ">Presentismo </h1>
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
-                            <div style={{ width: "90px" }}>
+                            <div style={{ width: "75px" }}>
                               <Progress value={90} color="green" />
                             </div>
                           </Col>

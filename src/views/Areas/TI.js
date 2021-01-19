@@ -300,7 +300,7 @@ class TI extends Component {
                           </Col>
                           <Col xs="12" sm="6" md="6" className="centrado-fila">
                             <div style={{ width: "90px" }}>
-                              <Progress value={80} color="green" />
+                              <Progress value={90} color="green" />
                             </div>
                           </Col>
                         </Row>
